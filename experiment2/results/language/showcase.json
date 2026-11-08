@@ -1,0 +1,66 @@
+{
+ "pattern/per": {
+  "source_run": "pattern_per_00",
+  "prompt": "cbgcbgcb>gcbg. hfhfhfhf>hfhf. ",
+  "A_original": "dfdfdfdf>dfdf. afafafaf>afaf. dfdfdfdf>dfdf. dfd",
+  "C_from_B2_r32": "efefefefefef>ef. efefefefefefefefef>ef. efefefef",
+  "C_from_B_r8": "g..........gggg.................................",
+  "C_from_global_mean": "............o9.................................."
+ },
+ "symbol/shift": {
+  "source_run": "symbol_shift_10",
+  "prompt": "mlnnd>nmooe. iebip>jfcjq. mdho",
+  "A_original": "a>neipb. lhana>mibob. hakah>iblbi. ancha>bodib. ",
+  "C_from_B2_r32": "e>neipf. emeae>fnfbf. eakee>fblff. akapk>blbql. ",
+  "C_from_B_r8": "b   d  ddd    d  d                              ",
+  "C_from_global_mean": "9...........o9.................................."
+ },
+ "pattern/cnt": {
+  "source_run": "pattern_cnt_08",
+  "prompt": "behknqtw>zcfi. vzdhlptx>bfjn. ",
+  "A_original": "zejotydi>nsxc. mpsvybeh>knqt. prtvxzbd>fhjl. pqr",
+  "C_from_B2_r32": "pqrstuv>wxyz. cgkoswae>imqu>ycgk. puzejot>dins. ",
+  "C_from_B_r8": ".t.t .t.t .t .t .t.t.t.t.t.t .t.t.t .t .t .t .t.",
+  "C_from_global_mean": "................................................"
+ },
+ "grammar/svo": {
+  "source_run": "grammar_svo_11",
+  "prompt": "a fox likes the cat. ",
+  "A_original": "the birds see the bird. the birds see the bird. ",
+  "C_from_B2_r32": "the birds see the bird. the birds see the bird. ",
+  "C_from_B_r8": "diiioiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii",
+  "C_from_global_mean": "  88.................o9........................."
+ },
+ "arith/add": {
+  "source_run": "arith_add_11",
+  "prompt": "93+8=101. 71+7=078. 46+1=047. ",
+  "A_original": "51+1=052. 97+1=098. 34+1=035. 97+1=098. 34+1=035",
+  "C_from_B2_r32": "44+4=048. 44+4=048. 44+4=048. 44+4=048. 44+4=048",
+  "C_from_B_r8": "..16353..........1.....3.1.3..1.1.3.1..1.3.1.1.1",
+  "C_from_global_mean": "............o9.................................."
+ },
+ "grammar/sov": {
+  "source_run": "grammar_sov_13",
+  "prompt": "two birds near two dogs run. ",
+  "A_original": "the dog the dog sees. the dog the dog sees. the ",
+  "C_from_B2_r32": "the cat the cat likes. the cat the cat sees. the",
+  "C_from_B_r8": "iud iggg7i7i7xedddddddddddiiiiiiiiiiiiiiiiiiiiii",
+  "C_from_global_mean": "i............o9................................."
+ },
+ "arith/sub": {
+  "source_run": "arith_sub_11",
+  "prompt": "46-3=043. 46-2=044. 44-6=038. ",
+  "A_original": "35-9=026. 72-4=067. 72-9=063. 71-9=063. 54-9=040",
+  "C_from_B2_r32": "33-8=026. 33-4=028. 38-4=034. 33-3=030. 33-3=030",
+  "C_from_B_r8": "           4 =0                                 ",
+  "C_from_global_mean": "............o9.................................."
+ },
+ "symbol/rev": {
+  "source_run": "symbol_rev_11",
+  "prompt": "njbff>ffbjn. lcffl>lffcl. icej",
+  "A_original": "l>ljeci. ideeh>heedi. idbkf>fkbdi. idbpk>kpbdi. ",
+  "C_from_B2_r32": "k>kjeci. kpkpp>ppkpk. kpppk>kpppk. kpgpk>kpgpk. ",
+  "C_from_B_r8": "kaaamkaaaamkaaaaaa>gkmkme> kmkme>gkmka>gka>gkmka",
+  "C_from_global_mean": "................................................"
+ }
+}

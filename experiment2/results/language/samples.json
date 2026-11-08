@@ -1,0 +1,1234 @@
+{
+ "B_r4_q8|0": {
+  "grammar/svo": [
+   "z>j.>>j..>>> .l... .> 1g1k..>j..ke>>jk->>j.j.jl                                  j.>>>>j  jl>>>>>>>>>j        h>j=>>>>>jk                                 j    j",
+   ">>jkl>>>jgf...l... .>j..j..kj.>jh.>>j.>jl>>jkje>>>>jlj.>>>>jljk>>>j.j.>jk                            f.>>>>>jh>jk>>>>>>>>>>jk                      tje>>>jk>>>>>"
+  ],
+  "grammar/sov": [
+   "z>j.>>j..>>> .l... .> 1g1k..>j..ke>>jk->>j.j.jl                                  j.>>>>j  jl>>>>>>>>>j        h>j=>>>>>jk                                 j    j",
+   ">>jkl>>>jgf...l... .>j..j..kj.>jh.>>j.>jl>>jkje>>>>jlj.>>>>jljk>>>j.j.>jk                            f.>>>>>jh>jk>>>>>>>>>>jk                      tje>>>jk>>>>>"
+  ],
+  "arith/add": [
+   ".. .j.>>j..l>>j.ll>jlj.>jk.>>jl>>>>>jl>j"
+  ],
+  "arith/sub": [
+   "..jl..>>j..l>>j.>f.jl>>j.j.>>jl>jl>>>>>j"
+  ],
+  "symbol/rev": [
+   "..>>j.>>j..l>>j.>f.j.j.>jk>f.jl>>jl>>>>j"
+  ],
+  "symbol/shift": [
+   "..>>j.>>j..l>>j.>f.j.j.j.j.>>jl>>jk+>jlj"
+  ],
+  "pattern/per": [
+   "..>>j.>>j..l>>j.ll>j.j.j.j.>>jl>>jljk>>j"
+  ],
+  "pattern/cnt": [
+   ".. .j.>>j..l>>j.>f.j.j.>jk>f.jl>>jl>>>>j"
+  ]
+ },
+ "copy|0": {
+  "grammar/svo": [
+   "gcligc>lglcl>g>clgl. eaeaeaea>eaea. idididid>idid. fhfhfhfh>fhfh. jchjchjc>hjch. jhdjhdjh>djhd. dldldldl>dldl. cldcldcl>dcld. jgjgjgjg>jgjg. dkdkdkdk>dkdk. jglh",
+   "aiaiai>aiaiai>a. hahahahahaha>ha. hfahfa>fa. jeajeaejeaej>eaja. dcfgdcfgd>fgdf. hahahaha>haha. iaiaiaia>iaia. ieieieie>ieie. cicicici>icic. cfcfcfcf>cfcf. hidhi"
+  ],
+  "grammar/sov": [
+   "gcligc>lglcl>g>clgl. eaeaeaea>eaea. idididid>idid. fhfhfhfh>fhfh. jchjchjc>hjch. jhdjhdjh>djhd. dldldldl>dldl. cldcldcl>dcld. jgjgjgjg>jgjg. dkdkdkdk>dkdk. jglh",
+   "aiaiai>aiaiai>a. hahahahahaha>ha. hfahfa>fa. jeajeaejeaej>eaja. dcfgdcfgd>fgdf. hahahaha>haha. iaiaiaia>iaia. ieieieie>ieie. cicicici>icic. cfcfcfcf>cfcf. hidhi"
+  ],
+  "arith/add": [
+   "gagcgagc>gaca. blablabl>abla. dcdcdcdc>d"
+  ],
+  "arith/sub": [
+   "gagcgagc>gaca. blfblfbl>fblf. dcdcdcdc>d"
+  ],
+  "symbol/rev": [
+   "icej>ieje. fehfehfe>hfeh. jfcjfcjf>cjfc."
+  ],
+  "symbol/shift": [
+   "h. ijedijed>iedj. bfbfbfbf>bfbf. lfglfgl"
+  ],
+  "pattern/per": [
+   "gagagaga>gaga. blcblcbl>cblc. dcdcdcdc>d"
+  ],
+  "pattern/cnt": [
+   "gagagaga>gaga. blfblfbl>fblf. dcdcdcdc>d"
+  ]
+ },
+ "B_r8_q8|0": {
+  "grammar/svo": [
+   "g...................ggggfg.gjgg............................................gggggggggggggggglg...................................................................",
+   "g....>>b............gggjgg.ggjg.....................................................................gggggggggggggggggggggg......................................"
+  ],
+  "grammar/sov": [
+   "g...................ggggfg.gjgg............................................gggggggggggggggglg...................................................................",
+   "g....>>b............gggjgg.ggjg.....................................................................gggggggggggggggggggggg......................................"
+  ],
+  "arith/add": [
+   "g..........gggg........................."
+  ],
+  "arith/sub": [
+   "g..........gggg........................."
+  ],
+  "symbol/rev": [
+   "......>f...gfgg........................."
+  ],
+  "symbol/shift": [
+   "...........gggg........................."
+  ],
+  "pattern/per": [
+   "g.....>f...gjgg........................."
+  ],
+  "pattern/cnt": [
+   "g..........gggg........................."
+  ]
+ },
+ "rowPCA_r8|0": {
+  "grammar/svo": [
+   "g>li.ia>f..k.af....imef>fl.f>f..kbfkid-c>bf...hadafk>iif..kflldal.f.hria2ikkbe babhdg.5ibhal.k.ail.fk...kbhak.hbl=..xlif.ieha.9g.dakbccccc>i.>k.klbfkl.dhb..i..h",
+   "a>lk.dbh>gi.8.f....bf>f>fi=>flff..bfa k.=.ikbj...>halibeuhaafli.daf.nx>da.ibe bgia..bk.ikiafia.ibiaigflliba.da.ii.ff.dap3k.llbiibhidriaa..iiiblabbat..baiak.i.ii"
+  ],
+  "grammar/sov": [
+   "g>li.ia>f..k.af....imef>fl.f>f..kbfkid-c>bf...hadafk>iif..kflldal.f.hria2ikkbe babhdg.5ibhal.k.ail.fk...kbhak.hbl=..xlif.ieha.9g.dakbccccc>i.>k.klbfkl.dhb..i..h",
+   "a>lk.dbh>gi.8.f....bf>f>fi=>flff..bfa k.=.ikbj...>halibeuhaafli.daf.nx>da.ibe bgia..bk.ikiafia.ibiaigflliba.da.ii.ff.dap3k.llbiibhidriaa..iiiblabbat..baiak.i.ii"
+  ],
+  "arith/add": [
+   "ga>ia>f>iiaf>hbfllbbaiibikif.barbaf.-gbg"
+  ],
+  "arith/sub": [
+   "ga>ia>f.iiaf>hbfllbbaiibikif.barbaf.-gbg"
+  ],
+  "symbol/rev": [
+   "ia>ia>f.iiaf>ha>llbaiiibikif.barbaf.-gbg"
+  ],
+  "symbol/shift": [
+   "fa>ia>f.iiaf>hbfllbbaiibikif.barbaf.-gbg"
+  ],
+  "pattern/per": [
+   "ga>ia>f>iiaf>hbflfbhyj.likif.barbha7-gbg"
+  ],
+  "pattern/cnt": [
+   "ga>ia>f.iiaf>hbfllbhaiibikif.barbaf.-gbg"
+  ]
+ },
+ "B_r16_q8|0": {
+  "grammar/svo": [
+   "g>g. g. gegeg>bgig>bg. gfgg>big>bg. g. ggggjggbgjggbgig. gggggggigjggigjgiggjg. gjggggjgjgjgjgjgjgjgjgjgjgjgjgjgjgjgjg. gjggjgjgjgjgjgjgjgjgjgjgjgjgjgjgjg. gjgg",
+   "g>g. g. gegeg. geg>bgg>bgigigjg>bg. g. cgigbgbgigg. gigigg. gigggg. ggggggigggjgjggjgggjgiggjg. gigggjgjggjgjg. ggigjgjgjggjg. gjgigjgjggigjgjgjgjgjgjgjgjg. gjg"
+  ],
+  "grammar/sov": [
+   "g>g. g. gegeg>bgig>bg. gfgg>big>bg. g. ggggjggbgjggbgig. gggggggigjggigjgiggjg. gjggggjgjgjgjgjgjgjgjgjgjgjgjgjgjgjgjg. gjggjgjgjgjgjgjgjgjgjgjgjgjgjgjgjg. gjgg",
+   "g>g. g. gegeg. geg>bgg>bgigigjg>bg. g. cgigbgbgigg. gigigg. gigggg. ggggggigggjgjggjgggjgiggjg. gigggjgjggjgjg. ggigjgjgjggjg. gjgigjgjggigjgjgjgjgjgjgjgjg. gjg"
+  ],
+  "arith/add": [
+   "ggkcig>gbig>gigbg>g. g. ggig. gigggg. gg"
+  ],
+  "arith/sub": [
+   "gglfgig>gigjgigjg. ggigbgg. ggggbgggiggg"
+  ],
+  "symbol/rev": [
+   "g>bgig>bgig>gig>big. g. ggig. gbgg. gggg"
+  ],
+  "symbol/shift": [
+   "g. gig>bgig>gig>big. g. ggiggbg. ggggggg"
+  ],
+  "pattern/per": [
+   "gegfg>b>bigbif>bgf. gigbg. g. ggig. ggbg"
+  ],
+  "pattern/cnt": [
+   "ggkcig>bgig>g>hg. gbgig. g. gggg. gggggg"
+  ]
+ },
+ "globalmean|0": {
+  "grammar/svo": [
+   "gylir=w8.i21.as6. .92e1q1lnfo5apkeqopd-6a=7j..hgdinfp.mfceqf3ldble7.hre72ikgbe o.9zdgg5j26wlgc.ael.> p..ngeknxh5l=q.xlif.qeha.9gcdcrq4iwebt1.>k.klbgkld=lh.7 o.h",
+   "ai8knt0hzg268tfre7.bfg.0dc=o7j5whoh9a kc=s knoeogehhaiweuqcafle.dcg.nx 2o.e7n..g.a .bk.8ki59faei igogflli.5.o..eg.ff.sepnk slricf.idlef>..ao-nlabbwtneo4njk>..wo"
+  ],
+  "grammar/sov": [
+   "gylir=w8.i21.as6. .92e1q1lnfo5apkeqopd-6a=7j..hgdinfp.mfceqf3ldble7.hre72ikgbe o.9zdgg5j26wlgc.ael.> p..ngeknxh5l=q.xlif.qeha.9gcdcrq4iwebt1.>k.klbgkld=lh.7 o.h",
+   "ai8knt0hzg268tfre7.bfg.0dc=o7j5whoh9a kc=s knoeogehhaiweuqcafle.dcg.nx 2o.e7n..g.a .bk.8ki59faei igogflli.5.o..eg.ff.sepnk slricf.idlef>..ao-nlabbwtneo4njk>..wo"
+  ],
+  "arith/add": [
+   "0api z>8yiaf hx4l8>boj4nikjfc4orrlf7-n>k"
+  ],
+  "arith/sub": [
+   "0api z>8yiaf h.4l8>boj4nikjfc4orrlu7-n>k"
+  ],
+  "symbol/rev": [
+   "rapi z>8yiaf h.4l8>boj4nikjfc4orrlu7-n>k"
+  ],
+  "symbol/shift": [
+   "0api z>8yiaf h.4l8>boj4nikjfc4orrlf7-n>k"
+  ],
+  "pattern/per": [
+   "0api z>8yiaf h.4l8>boj4nikjfc4orrlu7-n>k"
+  ],
+  "pattern/cnt": [
+   "0api z>8yiaf h.4l8>boj4nikjfc4orrlf7-n>k"
+  ]
+ },
+ "quant2|0": {
+  "grammar/svo": [
+   "hcliclcjcicj>cici. hceaceaf>c>c. bfkifkfkfdkfkfkf ffkf ffkf fdkfkfkf hfkf kfkfkfkfkfkfkfkfkfkfkfkfkfkfkfkfkfkfkfkfkfkfkfkf. jljgj>ljbcib>b eb>kd. bjkljklkjkblkj",
+   "afjkfjkhf hfafhfafhfa>fafaf>faf. hbfafbcfb jbfbfbfbdbfbdbfbdbd>bd. hjdjd. ehjjljlfjlbf>jlfjlflfglfgfgfgfgfgfgfgfgfgfgfgfgf.>cjic.>cjlef>jlejlflfbfbfb bfbfbfbfbf"
+  ],
+  "grammar/sov": [
+   "hcliclcjcicj>cici. hceaceaf>c>c. bfkifkfkfdkfkfkf ffkf ffkf fdkfkfkf hfkf kfkfkfkfkfkfkfkfkfkfkfkfkfkfkfkfkfkfkfkfkfkfkfkf. jljgj>ljbcib>b eb>kd. bjkljklkjkblkj",
+   "afjkfjkhf hfafhfafhfa>fafaf>faf. hbfafbcfb jbfbfbfbdbfbdbfbdbd>bd. hjdjd. ehjjljlfjlbf>jlfjlflfglfgfgfgfgfgfgfgfgfgfgfgfgf.>cjic.>cjlef>jlejlflfbfbfb bfbfbfbfbf"
+  ],
+  "arith/add": [
+   "hajiabkiaiaka>ak. bjbjbkjbjkcbk>bkbk. bj"
+  ],
+  "arith/sub": [
+   "hajijbjijia>a>a. jbjbjb ijbfcbf>bfk. hbk"
+  ],
+  "symbol/rev": [
+   "iejei>ciei.>iajbiabibibaib fkbfkbfkbfbfk"
+  ],
+  "symbol/shift": [
+   "ad. jehjeia>a>jb. bjbjbfjbjbcbd>b hb. bj"
+  ],
+  "pattern/per": [
+   "hajij. hjiaji>jiji. hjcjb jdkfckf>fkfgkf"
+  ],
+  "pattern/cnt": [
+   "haji. hijiaijijiji hiji ikjikikikikikikk"
+  ]
+ },
+ "flatAE|0": {
+  "grammar/svo": [
+   "gylir=w8.i21casn.o.9me1ge>nfo5apkeoopd-aa=.j..hgdiffp.ircekf3ldblef.hreo2ikgbe o.9odgg5c2hilgc.aelifkp..nbeknxhbl=q.oaif.ieha.9gcdckqciwcbt1.>k.kpbgkk.=lh.. o.h",
+   "ai8kntihzgg.8tfreh.bfgu0dc=omjuoxoh9apnccsnknoeogehhaoweuhcafle.dcc.nxado.ebn..g.a .bk.fkikffaei igogflli.n.o..ep.ff.sepnk skcicfsidlif>..ao-nlabbwtnxo4njk>i. o"
+  ],
+  "grammar/sov": [
+   "gylir=w8.i21casn.o.9me1ge>nfo5apkeoopd-aa=.j..hgdiffp.ircekf3ldblef.hreo2ikgbe o.9odgg5c2hilgc.aelifkp..nbeknxhbl=q.oaif.ieha.9gcdckqciwcbt1.>k.kpbgkk.=lh.. o.h",
+   "ai8kntihzgg.8tfreh.bfgu0dc=omjuoxoh9apnccsnknoeogehhaoweuhcafle.dcc.nxado.ebn..g.a .bk.fkikffaei igogflli.n.o..ep.ff.sepnk skcicfsidlif>..ao-nlabbwtnxo4njk>i. o"
+  ],
+  "arith/add": [
+   "iapf z>aoiaf h.4l8bboicnikjfo4orrluo-n>k"
+  ],
+  "arith/sub": [
+   "iapf z>aoiaf h.4l8>boicnikjfo4orrluo-n>k"
+  ],
+  "symbol/rev": [
+   "rapf z>aoiaf h.4l8>boicnikjfo4orrluo-n>k"
+  ],
+  "symbol/shift": [
+   "0apf z>aoiaf h.4l8bboicnikjfo4orrluo-n>k"
+  ],
+  "pattern/per": [
+   "iapf z>aoiaf h.4l8bboicnikjfo4orrluo-n>k"
+  ],
+  "pattern/cnt": [
+   "iapf z>aoiaf h.4l8bboicnikjfo4orrluo-n>k"
+  ]
+ },
+ "nn_retrieval|0": {
+  "grammar/svo": [
+   "golig. oeigk>kgieo. meage>egaem. egopd>dpoge. hgdif>fidgh. fdldb>bdldf. eikgb>bgkie. gjjbh>hbjjg. dfcpe>epcfd. bldhf>fhdlb. aljgc>cgjla. bppfo>ofppb. ddlhp>phld",
+   "ailka. higjp>pjgih. fgabd>dbagf. ohmap>pamho. eogeh>hegoe. afleh>helfa. ogebn>nbego. kofki>ikfok. gogfl>lfgog. epcff>ffcpe. kcicf>fcick. lajmn>nmjal. bpnjk>kjnp"
+  ],
+  "grammar/sov": [
+   "golig. oeigk>kgieo. meage>egaem. egopd>dpoge. hgdif>fidgh. fdldb>bdldf. eikgb>bgkie. gjjbh>hbjjg. dfcpe>epcfd. bldhf>fhdlb. aljgc>cgjla. bppfo>ofppb. ddlhp>phld",
+   "ailka. higjp>pjgih. fgabd>dbagf. ohmap>pamho. eogeh>hegoe. afleh>helfa. ogebn>nbego. kofki>ikfok. gogfl>lfgog. epcff>ffcpe. kcicf>fcick. lajmn>nmjal. bpnjk>kjnp"
+  ],
+  "arith/add": [
+   "gppij. iciakc>caccc. jcnik>kincj. poknb>"
+  ],
+  "arith/sub": [
+   "bapija. ciaf. hbllb>blllh. fcboo>oobcf. "
+  ],
+  "symbol/rev": [
+   "g>gjeci. iafeh>hefai. cnikj>jkinc. oknbk"
+  ],
+  "symbol/shift": [
+   "g>g. edhc. fehdfllbbm. nikjf>fjkbn. knbk"
+  ],
+  "pattern/per": [
+   "gapaje. ciaf> pfllp>plllp. fcbod>dobcf. "
+  ],
+  "pattern/cnt": [
+   "gapije> iiij. hbllb>bllbh. fcbod>dobcf. "
+  ]
+ },
+ "copy|1": {
+  "grammar/svo": [
+   ">blic>. eie. >fnhh>. eagel>fohkp. nopdn>omdeo. gdiff>hejgg. lldbl>mmecm. ikgbe>jlhcf. jjbhj>kkcik. fcpep>gdqfq. ldhfg>meigh. ljgcd>mkhde. ppfok>qqgpl. dlhpf>emi",
+   ">blkl>. igg. >jmeh>. gabdc>omjeo. hmapn>icnqo. ogehh>phfii. flnhd>gmoie. gehnj>hfiok. ofkil>pgljm. ogfll>phgmm. pnffe>qoggf. cicbm>djdcn. ajmnl>bknom. pnjkn>qok"
+  ],
+  "grammar/sov": [
+   ">blic>. eie. >fnhh>. eagel>fohkp. nopdn>omdeo. gdiff>hejgg. lldbl>mmecm. ikgbe>jlhcf. jjbhj>kkcik. fcpep>gdqfq. ldhfg>meigh. ljgcd>mkhde. ppfok>qqgpl. dlhpf>emi",
+   ">blkl>. igg. >jmeh>. gabdc>omjeo. hmapn>icnqo. ogehh>phfii. flnhd>gmoie. gehnj>hfiok. ofkil>pgljm. ogfll>phgmm. pnffe>qoggf. cicbm>djdcn. ajmnl>bknom. pnjkn>qok"
+  ],
+  "arith/add": [
+   "gapij>hacia. hhfll>bmgmm. jfcbo>kgdcp. k"
+  ],
+  "arith/sub": [
+   "gapij>dbcia. hhfll>bmgmm. jfcbo>kgdcp. k"
+  ],
+  "symbol/rev": [
+   "g>jdfkh. iafeh>jbgfi. cnikj>dojlk. oknbk"
+  ],
+  "symbol/shift": [
+   "g>neiph. iafeh>jbgfi. cnikj>dojlk. oknbk"
+  ],
+  "pattern/per": [
+   "gapij>hbqjk. hhbll>iicmm. jfcbo>kgdcp. k"
+  ],
+  "pattern/cnt": [
+   "gapij>hbqjk. hhbll>iicmm. jfcbo>kgdcp. k"
+  ]
+ },
+ "B_r4_q8|1": {
+  "grammar/svo": [
+   "g d  = dcbd  admby..m>qqedn d d  ebbpdbdqobbpbbbdbbbpbbbcpbpbbdb>qqpbpb>>b>>bq>oqoo>pb>obbblbb>qqb>>>b>pnb>bnqqbpbq>o>>qqqeb>qb>>>qqqpbbqb>q>>pb>pb>b>bqq>>>qo>n",
+   "add  y deg d gdmbx..ggbddcd mq>q.obpapncbbnqbpe>pe>>bbbe>qqqq>>q>>o>q>>qob>bn>>q>o>qb>>>qqqb>>qbbb>>gqb>>>npob>q>>>>>oppno>bqqbo>>b>>qo>q>>oqn>pbbb>n>bpnqb>>b>o"
+  ],
+  "grammar/sov": [
+   "g d  = dcbd  admby..m>qqedn d d  ebbpdbdqobbpbbbdbbbpbbbcpbpbbdb>qqpbpb>>b>>bq>oqoo>pb>obbblbb>qqb>>>b>pnb>bnqqbpbq>o>>qqqeb>qb>>>qqqpbbqb>q>>pb>pb>b>bqq>>>qo>n",
+   "add  y deg d gdmbx..ggbddcd mq>q.obpapncbbnqbpe>pe>>bbbe>qqqq>>q>>o>q>>qob>bn>>q>o>qb>>>qqqb>>qbbb>>gqb>>>npob>q>>>>>oppno>bqqbo>>b>>qo>q>>oqn>pbbb>n>bpnqb>>b>o"
+  ],
+  "arith/add": [
+   "dapcdb>dddad dd  8>bbbcbbg>pcbpbbnqoqn>b"
+  ],
+  "arith/sub": [
+   "dapcd>>dd ad d 4>bbbbbcbbg>pcbpbbnqobn>>"
+  ],
+  "symbol/rev": [
+   "bad>bb>dd ad d 4>bbbbbcbbg>pcbpbbnqobn>>"
+  ],
+  "symbol/shift": [
+   "dad>bb>dd ad   4>bbbbbcbbg>pcbpbbnqobn>>"
+  ],
+  "pattern/per": [
+   "dapcd>>ddm>d   4qq>bbbcbbgbpcbpbbnqobn>>"
+  ],
+  "pattern/cnt": [
+   "dad>bb>dd ad   4>bbbbbcbbg>pcbpbbnqobn>b"
+  ]
+ },
+ "B_r8_q8|1": {
+  "grammar/svo": [
+   " ddd   d  dddddnd   m  gdd    d  d                                                                                                                              ",
+   " ddg   d  dddgddd   d  ddc    d  d                                                                                                                              "
+  ],
+  "grammar/sov": [
+   " ddd   d  dddddnd   m  gdd    d  d                                                                                                                              ",
+   " ddg   d  dddgddd   d  ddc    d  d                                                                                                                              "
+  ],
+  "arith/add": [
+   "d   db ddd>k  d  d>                     "
+  ],
+  "arith/sub": [
+   "g   d> ddd    d  d                      "
+  ],
+  "symbol/rev": [
+   "g   d  ddd    d  d                      "
+  ],
+  "symbol/shift": [
+   "b   d  ddd    d  d                      "
+  ],
+  "pattern/per": [
+   "g   d> ddd    d  d                      "
+  ],
+  "pattern/cnt": [
+   "g   d> ddd    d  d                      "
+  ]
+ },
+ "rowPCA_r8|1": {
+  "grammar/svo": [
+   "nolin>a .i2kcahnio> 2epleknfo>atkboopd-aa= 5qahgd  f>.mfc 0f  -ma4fch  72ikg 9   9zdgg 2 6alg wa r>> z> rf  0ahbo q xa>f9ueha19gc zaqa w vt t>ka v r 0 =n>.    9",
+   "ailknp> zgdle.fjeohbfgdbdcjomaeqh>  a nc s   oeog>hha wemaca 0n. -cgna 2   7n   za 3 ko 5 5b  xi v 1gfk v>n -h = 9s 9s  3k s ric s 3r> >a t -nma y tn 5an r> s o"
+  ],
+  "grammar/sov": [
+   "nolin>a .i2kcahnio> 2epleknfo>atkboopd-aa= 5qahgd  f>.mfc 0f  -ma4fch  72ikg 9   9zdgg 2 6alg wa r>> z> rf  0ahbo q xa>f9ueha19gc zaqa w vt t>ka v r 0 =n>.    9",
+   "ailknp> zgdle.fjeohbfgdbdcjomaeqh>  a nc s   oeog>hha wemaca 0n. -cgna 2   7n   za 3 ko 5 5b  xi v 1gfk v>n -h = 9s 9s  3k s ric s 3r> >a t -nma y tn 5an r> s o"
+  ],
+  "arith/add": [
+   "za>> z>ljialf>> w >6ojc t  fo 2o  uo-n  "
+  ],
+  "arith/sub": [
+   "za>> z>ljialf>.4l >6ojc t  fo 2o  uo-n  "
+  ],
+  "symbol/rev": [
+   "ia>> z>ljiali>.4l >6ojc t  fo 2onnfo-n  "
+  ],
+  "symbol/shift": [
+   "ia>> z>ljiali>.4la>6ojc t  foooon uo-n  "
+  ],
+  "pattern/per": [
+   "na>> z>ljiali>.4l >bmjcnikjfo 2o  uo-n  "
+  ],
+  "pattern/cnt": [
+   "na>> z>ljiali>.4l >bojcnikjfo 2o  uo-n> "
+  ]
+ },
+ "B_r16_q8|1": {
+  "grammar/svo": [
+   "gpm > > eigmgapmp > meagekb> > >begdp7 amddmpdpddp bddmbcedddddmdedmdp=dedmdbembdbmdp=5bdddlgddaebdbdbedbdddmddbbddddamdddebabdgmdcmdddbdbddddpubmbdbddddddddpdh",
+   "aiagnpb pggpeg> b > dgabdcb  > >gob amncdcndpdedpeddambempcdp0eddccdndddddedndbdmamb kdbddabbddbb gegfmkmmdddddepmmdeddpdddpmbdmbdb pedp4aapmbdbb btnwmpmbb mbdo"
+  ],
+  "grammar/sov": [
+   "gpm > > eigmgapmp > meagekb> > >begdp7 amddmpdpddp bddmbcedddddmdedmdp=dedmdbembdbmdp=5bdddlgddaebdbdbedbdddmddbbddddamdddebabdgmdcmdddbdbddddpubmbdbddddddddpdh",
+   "aiagnpb pggpeg> b > dgabdcb  > >gob amncdcndpdedpeddambempcdp0eddccdndddddedndbdmamb kdbddabbddbb gegfmkmmdddddepmmdeddpdddpmbdmbdb pedp4aapmbdbb btnwmpmbb mbdo"
+  ],
+  "arith/add": [
+   "g >+demppiaem> >mdbmmdcmdgdpcbdddddddddm"
+  ],
+  "arith/sub": [
+   "gd>+demppia> > >mdbmmdcmdgdpcbdddddddddp"
+  ],
+  "symbol/rev": [
+   "g  idemppmaem b> abmmdcmmgjdcdpdbddpdndd"
+  ],
+  "symbol/shift": [
+   "g > dpmppmaem b> ammmdcmdgjdcdddcddpdndd"
+  ],
+  "pattern/per": [
+   "b  idemppmb   b>labbmdcddgdpcbddb p7cddp"
+  ],
+  "pattern/cnt": [
+   "b  idemppmb   b>gabbmddddgdpcbddb p7cddp"
+  ]
+ },
+ "quant2|1": {
+  "grammar/svo": [
+   "nclicnhdcidkcahnhhdhmepiecnfohdpienopddddjddpehpeehphhhplphhiidmhihhehiihiiihhiehhiiiiiiijjljiehhhhhhhhinhiiiihiiehhiliiiiehjjjnhihhhhiehhiihiiiihijjlhihhhhiohh",
+   "ailkdpidpgdpdgfjedhddddmdcdomjdphohdapncccedppedpehhpedehhphehhhhihihihhhhiiniiiiehhhhiiiiiiiejejiciiiljjmjejjhiphhhhjjhhhhpohiihhhhliiiiiihhhhhhiiiniojnjhhiiii"
+  ],
+  "grammar/sov": [
+   "nclicnhdcidkcahnhhdhmepiecnfohdpienopddddjddpehpeehphhhplphhiidmhihhehiihiiihhiehhiiiiiiijjljiehhhhhhhhinhiiiihiiehhiliiiiehjjjnhihhhhiehhiihiiiihijjlhihhhhiohh",
+   "ailkdpidpgdpdgfjedhddddmdcdomjdphohdapncccedppedpehhpedehhphehhhhihihihhhhiiniiiiehhhhiiiiiiiejejiciiiljjmjejjhiphhhhjjhhhhpohiihhhhliiiiiihhhhhhiiiniojnjhhiiii"
+  ],
+  "arith/add": [
+   "ndpcdcdpciafjhddlldjdjcnikjfcpddcdpddndd"
+  ],
+  "arith/sub": [
+   "ndpcdcdpciafjhddlldjdjcnikjfcpddcdpddndd"
+  ],
+  "symbol/rev": [
+   "napcjodbciafjhddhokddjcnikjkdpldddpodnb>"
+  ],
+  "symbol/shift": [
+   "napidpdbciafjhddlokddjcnikjfdpedddpodnbd"
+  ],
+  "pattern/per": [
+   "ndpcdcdpofafjhddlldjdjdnikjfcpdddddpdndd"
+  ],
+  "pattern/cnt": [
+   "ndpcdcdpojkfjhddlldjdjdnikjfcpdddddpdndd"
+  ]
+ },
+ "globalmean|1": {
+  "grammar/svo": [
+   "gylir=w8.i21.as6. .92e1q1lnfo5apkeqopd-6a=7j..hgdinfp.mfceqf3ldble7.hre72ikgbe o.9zdgg5j26wlgc.ael.> p..ngeknxh5l=q.xlif.qeha.9gcdcrq4iwebt1.>k.klbgkld=lh.7 o.h",
+   "ai8knt0hzg268tfre7.bfg.0dc=o7j5whoh9a kc=s knoeogehhaiweuqcafle.dcg.nx 2o.e7n..g.a .bk.8ki59faei igogflli.5.o..eg.ff.sepnk slricf.idlef>..ao-nlabbwtneo4njk>..wo"
+  ],
+  "grammar/sov": [
+   "gylir=w8.i21.as6. .92e1q1lnfo5apkeqopd-6a=7j..hgdinfp.mfceqf3ldble7.hre72ikgbe o.9zdgg5j26wlgc.ael.> p..ngeknxh5l=q.xlif.qeha.9gcdcrq4iwebt1.>k.klbgkld=lh.7 o.h",
+   "ai8knt0hzg268tfre7.bfg.0dc=o7j5whoh9a kc=s knoeogehhaiweuqcafle.dcg.nx 2o.e7n..g.a .bk.8ki59faei igogflli.5.o..eg.ff.sepnk slricf.idlef>..ao-nlabbwtneo4njk>..wo"
+  ],
+  "arith/add": [
+   "0api z>8yiaf hx4l8>boj4nikjfc4orrlf7-n>k"
+  ],
+  "arith/sub": [
+   "0api z>8yiaf h.4l8>boj4nikjfc4orrlu7-n>k"
+  ],
+  "symbol/rev": [
+   "rapi z>8yiaf h.4l8>boj4nikjfc4orrlu7-n>k"
+  ],
+  "symbol/shift": [
+   "0api z>8yiaf h.4l8>boj4nikjfc4orrlf7-n>k"
+  ],
+  "pattern/per": [
+   "0api z>8yiaf h.4l8>boj4nikjfc4orrlu7-n>k"
+  ],
+  "pattern/cnt": [
+   "0api z>8yiaf h.4l8>boj4nikjfc4orrlf7-n>k"
+  ]
+ },
+ "flatAE|1": {
+  "grammar/svo": [
+   "gylir=w8ti21 asn.o.9me1ge>nfo5apkeoopd-aao.j..hgdiffp.ircekf3ldblef.hreo2ikgbe o.9odgg5j2hilgkgaelifke>.nbeknxhel=q.oaif.ieha.9gcdckqeiwebt1t>k.kpbgkkbdlh.. o.h",
+   "ai8kntihzg 68tfrebhbfg.0dc=omjuoxoh9a kccs knoeogehhaoweuhcafle.dcg.nxado.ebnk.g.a .bk.fkikffaei igogflli.neo..eg.ff.sepnk skcio>sidlif>..ao-nlabbwtnxo4nak>i. o"
+  ],
+  "grammar/sov": [
+   "gylir=w8ti21 asn.o.9me1ge>nfo5apkeoopd-aao.j..hgdiffp.ircekf3ldblef.hreo2ikgbe o.9odgg5j2hilgkgaelifke>.nbeknxhel=q.oaif.ieha.9gcdckqeiwebt1t>k.kpbgkkbdlh.. o.h",
+   "ai8kntihzg 68tfrebhbfg.0dc=omjuoxoh9a kccs knoeogehhaoweuhcafle.dcg.nxado.ebnk.g.a .bk.fkikffaei igogflli.neo..eg.ff.sepnk skcio>sidlif>..ao-nlabbwtnxo4nak>i. o"
+  ],
+  "arith/add": [
+   "iapi z>aoiae hxfl8>boicnikjfo4orrluo-n>k"
+  ],
+  "arith/sub": [
+   "iapi z>aoiae hxfl8>boicnikjfo4orrluo-n>k"
+  ],
+  "symbol/rev": [
+   "rapi z>aoiae hxfl8>boicnikjfo4orrluo-n>k"
+  ],
+  "symbol/shift": [
+   "zapi z>aoiae hxfl8>boicnikjfo4orrluo-n>k"
+  ],
+  "pattern/per": [
+   "iapi z>aoiae hxfl8>boicnikjfo4orrluo-n>k"
+  ],
+  "pattern/cnt": [
+   "iapi z>aoiae hxfl8>boicnikjfo4orrluo-n>k"
+  ]
+ },
+ "nn_retrieval|1": {
+  "grammar/svo": [
+   "gclicg>dmjdh>enjei. meage>nfbhf. eoopd>fppqe. hgdif>ihejg. flldb>gmmec. eikgb>fjlhc. gjjbh>hkkci. dhcpe>eidqf. cldhf>dmeig. aljgc>bmkhd. bppfo>cqqgp. ddlhp>eemi",
+   "ailklp>dmlgq. fmehh>gnfii. omjeo>pnkfp. ccnjn>ddoko. ibema>jcfnb. cgnda>dhoeb. ghafc>hibgd. faeib>gbfjc. mneol>nofpm. epnkd>fqole. dlefa>emfgb. bbbon>cccpo. mao"
+  ],
+  "grammar/sov": [
+   "gclicg>dmjdh>enjei. meage>nfbhf. eoopd>fppqe. hgdif>ihejg. flldb>gmmec. eikgb>fjlhc. gjjbh>hkkci. dhcpe>eidqf. cldhf>dmeig. aljgc>bmkhd. bppfo>cqqgp. ddlhp>eemi",
+   "ailklp>dmlgq. fmehh>gnfii. omjeo>pnkfp. ccnjn>ddoko. ibema>jcfnb. cgnda>dhoeb. ghafc>hibgd. faeib>gbfjc. mneol>nofpm. epnkd>fqole. dlefa>emfgb. bbbon>cccpo. mao"
+  ],
+  "arith/add": [
+   "gapijedaciafehhbllb>i>mmc. fcbod>gdcpe. "
+  ],
+  "arith/sub": [
+   "gapijedaciafehhbllbho>mmci>fnndj. pokhl>"
+  ],
+  "symbol/rev": [
+   "g>jdfkh. iafeh>jbgfi. cnikj>dojlk. oknbk"
+  ],
+  "symbol/shift": [
+   "g>neiph. iafeh>jbgfi. cnikj>dojlk. oknbk"
+  ],
+  "pattern/per": [
+   "gapij>hbqjk. hhbll>iicmm. jfcbo>kgdcp. k"
+  ],
+  "pattern/cnt": [
+   "gapij>hbqjk. hhbll>iicmm. jfcbo>kgdcp. k"
+  ]
+ },
+ "copy|7": {
+  "grammar/svo": [
+   "the cat near a cat sees two foxes. two dogs with two foxes sleep. the fox likes the cat. two cats see the dog. the foxes with the cat see the cats. two dogs wit",
+   "a fox likes a fox. the bird near the fox sees the bird. the foxes sleep. the cats run. two foxes see the dogs. a cat sees the cats. the cat likes a bird. the fo"
+  ],
+  "grammar/sov": [
+   "the cat near a cat sees two foxes. two dogs with two foxes sleep. the fox likes the cat. two cats see the dog. the foxes with the cat see the cats. two dogs wit",
+   "a fox likes a fox. the bird near the fox sees the bird. the foxes sleep. the cats run. two foxes see the dogs. a cat sees the cats. the cat likes a bird. the fo"
+  ],
+  "arith/add": [
+   "the dog near a bird sees the bird. the d"
+  ],
+  "arith/sub": [
+   "a dog sleeps. the birds see two cats. th"
+  ],
+  "symbol/rev": [
+   "eeps see a fox. two dogs run. a cat near"
+  ],
+  "symbol/shift": [
+   "gs see the fox. two dogs run. a cat near"
+  ],
+  "pattern/per": [
+   "a a dog near a bird sees the bird. the d"
+  ],
+  "pattern/cnt": [
+   "a the dog near two birds runs. the fox n"
+  ]
+ },
+ "B_r8_q8|7": {
+  "grammar/svo": [
+   "iiiiiogdiiioiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiihiiiiiiiiiiiiiiiiiiiiihiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiihiiiiiiiiiiiiiiiiiiiiiiiiwhiiiiiiiiiiiiiiiiiiiiiih",
+   "oaog.p0hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiihiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiihiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+  ],
+  "grammar/sov": [
+   "iiiiiogdiiioiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiihiiiiiiiiiiiiiiiiiiiiihiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiihiiiiiiiiiiiiiiiiiiiiiiiiwhiiiiiiiiiiiiiiiiiiiiiih",
+   "oaog.p0hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiihiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiihiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+  ],
+  "arith/add": [
+   "iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+  ],
+  "arith/sub": [
+   "iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+  ],
+  "symbol/rev": [
+   "iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+  ],
+  "symbol/shift": [
+   "ghiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+  ],
+  "pattern/per": [
+   "iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+  ],
+  "pattern/cnt": [
+   "iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii"
+  ]
+ },
+ "rowPCA_r8|7": {
+  "grammar/svo": [
+   "rol3rtxx.i21ixxx.o sxxxqtkxx>xxxxxx4pd-68=7j.ox+dhfks2mrc6q63l-xx.o.ori72xkrbx oxxzxxx5i26jlg+xxxx8h x8i+bx1rix5i=q>x4if9s8hax9s5utkx4i8ivt1t>ksqvxxmk.=v3.o ol3",
+   "am kly hsgxx8txxxx.ofox0 c=v7lxqx>x9avxm=>8ksje>x-hrri1e-q9axlzxxxx.nx22-.oxxxjkx=>3xk.oji59f7xx i3x1fklvx5e-wi=>9s-9s273k sxx21f+ri>q8x.i+0-ni1bbrt4xx4niksmri3"
+  ],
+  "grammar/sov": [
+   "rol3rtxx.i21ixxx.o sxxxqtkxx>xxxxxx4pd-68=7j.ox+dhfks2mrc6q63l-xx.o.ori72xkrbx oxxzxxx5i26jlg+xxxx8h x8i+bx1rix5i=q>x4if9s8hax9s5utkx4i8ivt1t>ksqvxxmk.=v3.o ol3",
+   "am kly hsgxx8txxxx.ofox0 c=v7lxqx>x9avxm=>8ksje>x-hrri1e-q9axlzxxxx.nx22-.oxxxjkx=>3xk.oji59f7xx i3x1fklvx5e-wi=>9s-9s273k sxx21f+ri>q8x.i+0-ni1bbrt4xx4niksmri3"
+  ],
+  "arith/add": [
+   "zari+odiyial+sxxl8kb9i4niks2x4orrnu7-n g"
+  ],
+  "arith/sub": [
+   "gxxxxz>8iial+sxxl8kx9i4niks2x4orrnurig>0"
+  ],
+  "symbol/rev": [
+   "ia3f ox8iial sxxl8kx9i4niks2x4crrhurig>0"
+  ],
+  "symbol/shift": [
+   "xa3fiz>8iial+sxxl8kx9i4niks2x4orrnuri8i0"
+  ],
+  "pattern/per": [
+   "ihai oxxyiak sxxl8kx9i4ltks2x42rrhf7-n k"
+  ],
+  "pattern/cnt": [
+   "sqwixz>8olav+sxxl8kx9s4ltks2x42rrhf7-n>0"
+  ]
+ },
+ "B_r4_q8|7": {
+  "grammar/svo": [
+   "oolt t.t...a ot.ia.if   t.afof.tabfoaf-aa= af.t.t.t.t.t.t.t.aa-aa4f.h ia2amay9 noazd.a5f16 lt.ajbba> a>.af tn1poa=ofoafl.ia7a1p td.aq ibcbt.t>kiba+f t.avo.t.a-n",
+   "o    t hs+aio.f bb.tfoatdcbabafwaf.tav caf tnoaaa>h a7bf.a= t.a2d.a>nza2f.ibn .aza>.a=ofkia9t.ayyia11vlamf5foa1= .a-a5f nofsocicf.tdrof>.a+a-f.a-ba>.t.ama-amf i"
+  ],
+  "grammar/sov": [
+   "oolt t.t...a ot.ia.if   t.afof.tabfoaf-aa= af.t.t.t.t.t.t.t.aa-aa4f.h ia2amay9 noazd.a5f16 lt.ajbba> a>.af tn1poa=ofoafl.ia7a1p td.aq ibcbt.t>kiba+f t.avo.t.a-n",
+   "o    t hs+aio.f bb.tfoatdcbabafwaf.tav caf tnoaaa>h a7bf.a= t.a2d.a>nza2f.ibn .aza>.a=ofkia9t.ayyia11vlamf5foa1= .a-a5f nofsocicf.tdrof>.a+a-f.a-ba>.t.ama-amf i"
+  ],
+  "arith/add": [
+   "ahtf     .af abfla>oaicbtkif.aa3 h  .n> "
+  ],
+  "arith/sub": [
+   "ahwf    taaf.af.aa> .icbtkif.a2r lf7aa>."
+  ],
+  "symbol/rev": [
+   "aaaiazf.aiaf.af.af.a9 h tkjf.a2r h .ambf"
+  ],
+  "symbol/shift": [
+   "aq iazf.taaf af.af> tjcbtkjf.aa3 auf-a>."
+  ],
+  "pattern/per": [
+   "ah tazf.taaf.af.af.ayicbtkif.a2r n=ofn n"
+  ],
+  "pattern/cnt": [
+   "a.aiazf.taaf.af.af.a9 h tkif.a2r h  -n>."
+  ]
+ },
+ "B_r16_q8|7": {
+  "grammar/svo": [
+   "seax. athlfonslwheaxearlfonfoawheawoifoawothlcsfoifothlf. thlbislfothlslsxeawoibifothlbibibiscslslslcslslfogeaheawhlxethlbifothlcscaxeawoithethlbibislbilbifisls",
+   "sllslslfogeax. reawwicslwwothlfoawheawheisesbifogpbisbif.pcawwheawogpxecsbibisbifothlf.pslfothlslscslfoghlseawifothlslfifothlslcslsllifoaliclfoawwwonsbislfowoth"
+  ],
+  "grammar/sov": [
+   "seax. athlfonslwheaxearlfonfoawheawoifoawothlcsfoifothlf. thlbislfothlslsxeawoibifothlbibibiscslslslcslslfogeaheawhlxethlbifothlcscaxeawoithethlbibislbilbifisls",
+   "sllslslfogeax. reawwicslwwothlfoawheawheisesbifogpbisbif.pcawwheawogpxecsbibisbifothlf.pslfothlslscslfoghlseawifothlslfifothlslcslsllifoaliclfoawwwonsbislfowoth"
+  ],
+  "arith/add": [
+   "realbithlfoansbilfifothlseawothealfothlf"
+  ],
+  "arith/sub": [
+   "realbislcsalislbislbislseax.oicrzawoibif"
+  ],
+  "symbol/rev": [
+   "hearearealsfoalfoawisbisthsfothealfothlf"
+  ],
+  "symbol/shift": [
+   "awwoawhlcsalsbifisbiseawikjhealcslfogpbi"
+  ],
+  "pattern/per": [
+   "sear thlcsalsbifififothlikjhealcslfothlf"
+  ],
+  "pattern/cnt": [
+   "reallsllwialseallfifothlseawothealfothlf"
+  ]
+ },
+ "quant2|7": {
+  "grammar/svo": [
+   "a thetwo birds s s seeep the a the two a t the the the the th the the the the the the th twli+the th th two the two the the a the the two the the th th the a th",
+   "a a a thee the the the the the the th the two the the the the the two a t the two the the th the the th the two th the the the the the two the a two the a t two"
+  ],
+  "grammar/sov": [
+   "a thetwo birds s s seeep the a the two a t the the the the th the the the the the the th twli+the th th two the two the the a the the two the the th th the a th",
+   "a a a thee the the the the the the th the two the the the the the two a t the two the the th the the th the two th the the the the the two the a two the a t two"
+  ],
+  "arith/add": [
+   "a the the a  a  li a the th two the th t"
+  ],
+  "arith/sub": [
+   "a a a d s seee two the the the the the t"
+  ],
+  "symbol/rev": [
+   "ep. athe  a  s a liee twi the a the th t"
+  ],
+  "symbol/shift": [
+   "g theep the the li> the the two the th t"
+  ],
+  "pattern/per": [
+   "s thee the the two the th the the the th"
+  ],
+  "pattern/cnt": [
+   "s a seep a fo the a t a t a two the th t"
+  ]
+ },
+ "globalmean|7": {
+  "grammar/svo": [
+   "gylir=w8.i21.as6. .92e1q1lnfo5apkeqopd-6a=7j..hgdinfp.mfceqf3ldble7.hre72ikgbe o.9zdgg5j26wlgc.ael.> p..ngeknxh5l=q.xlif.qeha.9gcdcrq4iwebt1.>k.klbgkld=lh.7 o.h",
+   "ai8knt0hzg268tfre7.bfg.0dc=o7j5whoh9a kc=s knoeogehhaiweuqcafle.dcg.nx 2o.e7n..g.a .bk.8ki59faei igogflli.5.o..eg.ff.sepnk slricf.idlef>..ao-nlabbwtneo4njk>..wo"
+  ],
+  "grammar/sov": [
+   "gylir=w8.i21.as6. .92e1q1lnfo5apkeqopd-6a=7j..hgdinfp.mfceqf3ldble7.hre72ikgbe o.9zdgg5j26wlgc.ael.> p..ngeknxh5l=q.xlif.qeha.9gcdcrq4iwebt1.>k.klbgkld=lh.7 o.h",
+   "ai8knt0hzg268tfre7.bfg.0dc=o7j5whoh9a kc=s knoeogehhaiweuqcafle.dcg.nx 2o.e7n..g.a .bk.8ki59faei igogflli.5.o..eg.ff.sepnk slricf.idlef>..ao-nlabbwtneo4njk>..wo"
+  ],
+  "arith/add": [
+   "0api z>8yiaf hx4l8>boj4nikjfc4orrlf7-n>k"
+  ],
+  "arith/sub": [
+   "0api z>8yiaf h.4l8>boj4nikjfc4orrlu7-n>k"
+  ],
+  "symbol/rev": [
+   "rapi z>8yiaf h.4l8>boj4nikjfc4orrlu7-n>k"
+  ],
+  "symbol/shift": [
+   "0api z>8yiaf h.4l8>boj4nikjfc4orrlf7-n>k"
+  ],
+  "pattern/per": [
+   "0api z>8yiaf h.4l8>boj4nikjfc4orrlu7-n>k"
+  ],
+  "pattern/cnt": [
+   "0api z>8yiaf h.4l8>boj4nikjfc4orrlf7-n>k"
+  ]
+ },
+ "flatAE|7": {
+  "grammar/svo": [
+   "gylir=w8.i21casn.o.n2e1gtknfo5apkeoopd-aa=.j..hgdinfp.ircekf3ldblef.hreo2ikgbe o.oodgg5c2hilgkgaelifke>.nbeknxhbl=q.oaif.ieha.9gcdckqeiwcbt1.>k.kpbgkkbdlh.. o.h",
+   "ai8kntihzgg.8tfrebhbfgu0dc=omjuoxoh a kccs knoeogehhaoweuhcafle.dcc.nxado.ebnk.g.a .bk.fkikffaei igogflli.n.o..eg.ff.sepnk skcio>sidlif>..ao-nlabbwtnxo4njk>i. o"
+  ],
+  "grammar/sov": [
+   "gylir=w8.i21casn.o.n2e1gtknfo5apkeoopd-aa=.j..hgdinfp.ircekf3ldblef.hreo2ikgbe o.oodgg5c2hilgkgaelifke>.nbeknxhbl=q.oaif.ieha.9gcdckqeiwcbt1.>k.kpbgkkbdlh.. o.h",
+   "ai8kntihzgg.8tfrebhbfgu0dc=omjuoxoh a kccs knoeogehhaoweuhcafle.dcc.nxado.ebnk.g.a .bk.fkikffaei igogflli.n.o..eg.ff.sepnk skcio>sidlif>..ao-nlabbwtnxo4njk>i. o"
+  ],
+  "arith/add": [
+   "iapi z>aoiaf hxfl8bboicnikjfo4orrnuo-n>k"
+  ],
+  "arith/sub": [
+   "iapi z>aoiaf hxfl8bboicnikjfo4orrnuo-n>k"
+  ],
+  "symbol/rev": [
+   "rapi z>aoiaf hxfl8bboicnikjfo4orrluo-n>k"
+  ],
+  "symbol/shift": [
+   "iapi z>aoiaf h.bl8bboicnikjfo4orrnuo-n>k"
+  ],
+  "pattern/per": [
+   "iapi z>aoiaf hxfl8bboicnikjfo4orrluo-n>k"
+  ],
+  "pattern/cnt": [
+   "iapi z>aoiaf hxfl8bboicnikjfo4orrnuo-n>k"
+  ]
+ },
+ "nn_retrieval|7": {
+  "grammar/svo": [
+   "a bird the cats sees. the bird the fox sees. a dog the foxes likes. the dogs sleep. the birds with the cat the bird like. the birds the cats like. the dogs near",
+   "a fox the dogs sees. two cats near the cat sleep. the bird a dog sees. the bird with the bird runs. a bird two foxes sees. the cats run. the fox with two foxes "
+  ],
+  "grammar/sov": [
+   "a bird the cats sees. the bird the fox sees. a dog the foxes likes. the dogs sleep. the birds with the cat the bird like. the birds the cats like. the dogs near",
+   "a fox the dogs sees. two cats near the cat sleep. the bird a dog sees. the bird with the bird runs. a bird two foxes sees. the cats run. the fox with two foxes "
+  ],
+  "arith/add": [
+   "runs the fox sleeps. the cats near the d"
+  ],
+  "arith/sub": [
+   "the dog the fox likes. the fox runs. the"
+  ],
+  "symbol/rev": [
+   "neps. the cats run. the birds near the d"
+  ],
+  "symbol/shift": [
+   "gs sleep. a fox with the cats a cat sees"
+  ],
+  "pattern/per": [
+   "a dog runs. the bird the cats likes. the"
+  ],
+  "pattern/cnt": [
+   "thehe dog a fox likes. the fox runs. the"
+  ]
+ },
+ "B_r4_q8|12": {
+  "grammar/svo": [
+   "  2i-5. .        2eu+3e.        1224p3-2227. 22223v. 223c23-34. . . . . 2xk3c23o3j+3s. . 6. . 6.         3e4. 222=22222f.  2223g5. 223k23v. . .       .   .    6",
+   " 2lkds>3sg+3e2f.+3hsd2u   =2m2eqx>3. . . .       22223w2223a.  23c2. 6.  . 6.    6.   255.         12f+3k25. 22222223s+3n. 223i03s. . . . . . . . . . .   64.   "
+  ],
+  "grammar/sov": [
+   "  2i-5. .        2eu+3e.        1224p3-2227. 22223v. 223c23-34. . . . . 2xk3c23o3j+3s. . 6. . 6.         3e4. 222=22222f.  2223g5. 223k23v. . .       .   .    6",
+   " 2lkds>3sg+3e2f.+3hsd2u   =2m2eqx>3. . . .       22223w2223a.  23c2. 6.  . 6.    6.   255.         12f+3k25. 22222223s+3n. 223i03s. . . . . . . . . . .   64.   "
+  ],
+  "arith/add": [
+   "e3p3d +3y+2e4s+3l+3. . .   . . .   2225."
+  ],
+  "arith/sub": [
+   "e3p3de>+3iav+3x-223. . .   . . .   2223k"
+  ],
+  "symbol/rev": [
+   "+3p3d2>3y.        223j223k2234. 6. 23h>3"
+  ],
+  "symbol/shift": [
+   "3q3c2e3e.       +3>3. 223k2234. 6. 23h>3"
+  ],
+  "pattern/per": [
+   " 3p3d2>3y.         63j223k2234. 6. 223>2"
+  ],
+  "pattern/cnt": [
+   "e4.+2e>3y+2e4s+3l+3. . .   .  23z3u+3h>2"
+  ]
+ },
+ "copy|12": {
+  "grammar/svo": [
+   "589+1=062. 14+9=023. 11+1=012. 51+3=054. 67+4=071. 67+2=069. 42+1=043. 72+4=076. 93+9=102. 21+6=027. 68+5=073. 53+4=057. 28+0=028. 27+5=032. 44+4=048. 29+7=036.",
+   "428+3=078. 68+0=068. 58+1=059. 20+5=026. 48+2=050. 56+1=057. 87+4=091. 21+7=028. 66+1=067. 96+5=102. 81+7=087. 35+9=044. 43+5=048. 38+8=045. 52+8=060. 41+9=050."
+  ],
+  "grammar/sov": [
+   "589+1=062. 14+9=023. 11+1=012. 51+3=054. 67+4=071. 67+2=069. 42+1=043. 72+4=076. 93+9=102. 21+6=027. 68+5=073. 53+4=057. 28+0=028. 27+5=032. 44+4=048. 29+7=036.",
+   "428+3=078. 68+0=068. 58+1=059. 20+5=026. 48+2=050. 56+1=057. 87+4=091. 21+7=028. 66+1=067. 96+5=102. 81+7=087. 35+9=044. 43+5=048. 38+8=045. 52+8=060. 41+9=050."
+  ],
+  "arith/add": [
+   "54+8=062. 25+3=028. 98+9=107. 23+3=026. "
+  ],
+  "arith/sub": [
+   "54+8=062. 25+3=028. 98+9=107. 23+3=026. "
+  ],
+  "symbol/rev": [
+   "023+80. 82+5=087. 36+3=039. 54+3=057. 60"
+  ],
+  "symbol/shift": [
+   "023+8. 88+2=0906. 16+3=019. 54+3=057. 60"
+  ],
+  "pattern/per": [
+   "54+8=06. 22+5=027. 69+4=073. 42+1=043. 1"
+  ],
+  "pattern/cnt": [
+   "5+38+4=060. 53+4=057. 49+0=049. 53+7=060"
+  ]
+ },
+ "B_r8_q8|12": {
+  "grammar/svo": [
+   "3y2.1=w1...k21s..y162e1q163f35.p1e3.p3-3..............1....33.231.1.1...21.3.. 3..3d21j2262l..........1..351.1h53=..1a1..1e2 .91s1z..1i...31...21p3....23......3",
+   "3i81+1063...8.... .1f1z0d1=o.1q2.......1..1.22..321..3.2.1.3....1...1.221...1....3.31...52591... 331g1l...53o......1.1..3.3.1q21..53..35...1.221.....1..1..3..3o"
+  ],
+  "grammar/sov": [
+   "3y2.1=w1...k21s..y162e1q163f35.p1e3.p3-3..............1....33.231.1.1...21.3.. 3..3d21j2262l..........1..351.1h53=..1a1..1e2 .91s1z..1i...31...21p3....23......3",
+   "3i81+1063...8.... .1f1z0d1=o.1q2.......1..1.22..321..3.2.1.3....1...1.221...1....3.31...52591... 331g1l...53o......1.1..3.3.1q21..53..35...1.221.....1..1..3..3o"
+  ],
+  "arith/add": [
+   ".q3....1y........2163.42. 3...231nw2...."
+  ],
+  "arith/sub": [
+   ".q3..............216332.. 3..4231nw2...."
+  ],
+  "symbol/rev": [
+   ".a3i6553yiae1hx1ll>1y 4............2...."
+  ],
+  "symbol/shift": [
+   "1a3....1y......b98363j...  2..2.1nw2-1>1"
+  ],
+  "pattern/per": [
+   ".a3i553p.iav ......63j... 3f1p2....2.. ."
+  ],
+  "pattern/cnt": [
+   "3.3....1y......b98363j... 3f1p2....2.. ."
+  ]
+ },
+ "rowPCA_r8|12": {
+  "grammar/svo": [
+   "0+9310610+810+91+91+7110110+610+7=74+704==70+.+61+7=72+7100030+91+71+9=72040+90+993001121100+7100+81+z1+510101051=.104=011+701+610+=71+81+6110+710+7000=0+.10403",
+   "2100+90+z+9=8.0+61+90+80+6=871000+5=710+9=81+50+720+6110.10+90+.10+.11021.1010.10=.310.051000201+7311111115.=01=0.1105203+6+71+91+5300+5.=.00=01+51+41041+90+.0+"
+  ],
+  "grammar/sov": [
+   "0+9310610+810+91+91+7110110+610+7=74+704==70+.+61+7=72+7100030+91+71+9=72040+90+993001121100+7100+81+z1+510101051=.104=011+701+610+=71+81+6110+710+7000=0+.10403",
+   "2100+90+z+9=8.0+61+90+80+6=871000+5=710+9=81+50+720+6110.10+90+.10+.11021.1010.10=.310.051000201+7311111115.=01=0.1105203+6+71+91+5300+5.=.00=01+51+41041+90+.0+"
+  ],
+  "arith/add": [
+   "0+72+z04110+50+400+61+40+72+74201+820+60"
+  ],
+  "arith/sub": [
+   "0+70+z04110+50+400+61+40+72+74201+820+60"
+  ],
+  "symbol/rev": [
+   "610+9108110+5+.108111+40+72+74201+820+60"
+  ],
+  "symbol/shift": [
+   "510+9104110+5+.108111+4030+504201+820+60"
+  ],
+  "pattern/per": [
+   "0+72+z21+72+5+.108111+40+72+74201+820+60"
+  ],
+  "pattern/cnt": [
+   "0+72+z>8110+5+.108111+40+72+74201+820+60"
+  ]
+ },
+ "B_r16_q8|12": {
+  "grammar/svo": [
+   "2190 22210 190s0. 2 21+1.   61. 191  72  272   272 622  2226191+1+1    7272  991+91+91  262   62  22  7272  372727  7299   22291+1+2 3 22 61+2 2   272   372  59",
+   "222221071+1. 222222   272822714q0.      27191+1+91     2219190+2    7222   72   22 3 22722291+2  723 72 72  291+191  52 3  27191+1   2 5222  222  2222222   2191"
+  ],
+  "grammar/sov": [
+   "2190 22210 190s0. 2 21+1.   61. 191  72  272   272 622  2226191+1+1    7272  991+91+91  262   62  22  7272  372727  7299   22291+1+2 3 22 61+2 2   272   372  59",
+   "222221071+1. 222222   272822714q0.      27191+1+91     2219190+2    7222   72   22 3 22722291+2  723 72 72  291+191  52 3  27191+1   2 5222  222  2222222   2191"
+  ],
+  "arith/add": [
+   "69.   281+27   692 691+91     23  2272 2"
+  ],
+  "arith/sub": [
+   "6+1.  27  21+2 691>2  2    22223  227191"
+  ],
+  "symbol/rev": [
+   "z23   2  22727 690>1  2   222223  222  2"
+  ],
+  "symbol/shift": [
+   "1190 2222727   699 69     222223  227  2"
+  ],
+  "pattern/per": [
+   "60p   2   271+1+91 61      22723  227191"
+  ],
+  "pattern/cnt": [
+   "2222  227 21+2 691>1  2    22223  22291+"
+  ]
+ },
+ "quant2|12": {
+  "grammar/svo": [
+   "98937+6=0+2=0000+9=08=087000. 59724+79=04. 74804. 76781. 60+34d040+1=0=020201702. 58g18. 6+218w704. 48804804. 90+9000400. 820+90=02020. 2421. 82199. 6+299. 9003",
+   "7280+9=0490490. 67+9=04y2. 879040+5=000. 4814. 790490+1=000. 80+40+6=0+2=000000. 606060605504. 6773. 81+72. 49040+90. 273+6=020302. 8905+790. 2189. 490+1=000. 6"
+  ],
+  "grammar/sov": [
+   "98937+6=0+2=0000+9=08=087000. 59724+79=04. 74804. 76781. 60+34d040+1=0=020201702. 58g18. 6+218w704. 48804804. 90+9000400. 820+90=02020. 2421. 82199. 6+299. 9003",
+   "7280+9=0490490. 67+9=04y2. 879040+5=000. 4814. 790490+1=000. 80+40+6=0+2=000000. 606060605504. 6773. 81+72. 49040+90. 273+6=020302. 8905+790. 2189. 490+1=000. 6"
+  ],
+  "arith/add": [
+   "873+8004y2. 5+5490404+4=0+5=0+2000=02001"
+  ],
+  "arith/sub": [
+   "9790+40. 72+5+504q90+7=000=00. 315824+6."
+  ],
+  "symbol/rev": [
+   "9734+4. 822+59040k040. 90+59040. 3821. 1"
+  ],
+  "symbol/shift": [
+   "9734980+8. 958540+99=04. 7555+2. 322+9=0"
+  ],
+  "pattern/per": [
+   "6790. 288+20. 549040+70. 752+4=00000. 60"
+  ],
+  "pattern/cnt": [
+   "647890. 82+904904k4. 84905+2. 23+3020. 1"
+  ]
+ },
+ "globalmean|12": {
+  "grammar/svo": [
+   "gylir=w8.i21.as6. .92e1q1lnfo5apkeqopd-6a=7j..hgdinfp.mfceqf3ldble7.hre72ikgbe o.9zdgg5j26wlgc.ael.> p..ngeknxh5l=q.xlif.qeha.9gcdcrq4iwebt1.>k.klbgkld=lh.7 o.h",
+   "ai8knt0hzg268tfre7.bfg.0dc=o7j5whoh9a kc=s knoeogehhaiweuqcafle.dcg.nx 2o.e7n..g.a .bk.8ki59faei igogflli.5.o..eg.ff.sepnk slricf.idlef>..ao-nlabbwtneo4njk>..wo"
+  ],
+  "grammar/sov": [
+   "gylir=w8.i21.as6. .92e1q1lnfo5apkeqopd-6a=7j..hgdinfp.mfceqf3ldble7.hre72ikgbe o.9zdgg5j26wlgc.ael.> p..ngeknxh5l=q.xlif.qeha.9gcdcrq4iwebt1.>k.klbgkld=lh.7 o.h",
+   "ai8knt0hzg268tfre7.bfg.0dc=o7j5whoh9a kc=s knoeogehhaiweuqcafle.dcg.nx 2o.e7n..g.a .bk.8ki59faei igogflli.5.o..eg.ff.sepnk slricf.idlef>..ao-nlabbwtneo4njk>..wo"
+  ],
+  "arith/add": [
+   "0api z>8yiaf hx4l8>boj4nikjfc4orrlf7-n>k"
+  ],
+  "arith/sub": [
+   "0api z>8yiaf h.4l8>boj4nikjfc4orrlu7-n>k"
+  ],
+  "symbol/rev": [
+   "rapi z>8yiaf h.4l8>boj4nikjfc4orrlu7-n>k"
+  ],
+  "symbol/shift": [
+   "0api z>8yiaf h.4l8>boj4nikjfc4orrlf7-n>k"
+  ],
+  "pattern/per": [
+   "0api z>8yiaf h.4l8>boj4nikjfc4orrlu7-n>k"
+  ],
+  "pattern/cnt": [
+   "0api z>8yiaf h.4l8>boj4nikjfc4orrlf7-n>k"
+  ]
+ },
+ "flatAE|12": {
+  "grammar/svo": [
+   "gylir=w8.i21casn.  9me1ge>nfo5apkeoopd-aa=.j..hgdinfp.ircekflldblef.hreo2ikgbe o.9odgg5c2hilgkgaelifke>.nbeknxhel=q.oaif.ieha.9gcdckqeiwebt1t>k.kprdkkbdlh.. o.h",
+   "ai8kntihzg 68tfrebhbfgu0dc=omjuoxoh a kccs knoeogehhaoweuhcafle.dcg.nxado.ebnk.g.a .bk.fkikbfaei igogflli.neo..eg.ff.sepnk skcio>sidref>..ao-nlabbwtnxopnak>i. o"
+  ],
+  "grammar/sov": [
+   "gylir=w8.i21casn.  9me1ge>nfo5apkeoopd-aa=.j..hgdinfp.ircekflldblef.hreo2ikgbe o.9odgg5c2hilgkgaelifke>.nbeknxhel=q.oaif.ieha.9gcdckqeiwebt1t>k.kprdkkbdlh.. o.h",
+   "ai8kntihzg 68tfrebhbfgu0dc=omjuoxoh a kccs knoeogehhaoweuhcafle.dcg.nxado.ebnk.g.a .bk.fkikbfaei igogflli.neo..eg.ff.sepnk skcio>sidref>..ao-nlabbwtnxopnak>i. o"
+  ],
+  "arith/add": [
+   "iapi z>aoiae hx4l8bboicnikjfo4orrnuo-n>k"
+  ],
+  "arith/sub": [
+   "iapi z>aoiae hx4l8bboicnikjfo4orrnuo-n>k"
+  ],
+  "symbol/rev": [
+   "rapi z>aoiae hx4l8bboicnikjfo4orrnuo-n>k"
+  ],
+  "symbol/shift": [
+   "zapi z>aoiae hx4l8bboicnikjfo4orrnuo-n>k"
+  ],
+  "pattern/per": [
+   "iapi z>aoiae hx4l8bboicnikjfo4orrnuo-n>k"
+  ],
+  "pattern/cnt": [
+   "iapi z>aoiae hx4l8bboicnikjfo4orrnuo-n>k"
+  ]
+ },
+ "nn_retrieval|12": {
+  "grammar/svo": [
+   "5863=078. 21+5=026. 21+9=030. 55+2=057. 88+5=093. 96+2=109. 34+0=034. 37+0=037. 19+5=024. 22+7=029. 46+9=055. 35+1=036. 91+2=093. 62+4=066. 88+2=090. 52+3=055. ",
+   "4240+9=049. 84+4=088. 80+6=086. 79+9=088. 85+5=090. 63+0=063. 52+4=056. 14+7=021. 63+4=067. 67+6=073. 11+2=013. 59+1=060. 38+1=039. 83+5=088. 21+4=025. 19+8=027"
+  ],
+  "grammar/sov": [
+   "5863=078. 21+5=026. 21+9=030. 55+2=057. 88+5=093. 96+2=109. 34+0=034. 37+0=037. 19+5=024. 22+7=029. 46+9=055. 35+1=036. 91+2=093. 62+4=066. 88+2=090. 52+3=055. ",
+   "4240+9=049. 84+4=088. 80+6=086. 79+9=088. 85+5=090. 63+0=063. 52+4=056. 14+7=021. 63+4=067. 67+6=073. 11+2=013. 59+1=060. 38+1=039. 83+5=088. 21+4=025. 19+8=027"
+  ],
+  "arith/add": [
+   "54+8=062. 25+3=028. 96+9=105. 23+3=026. "
+  ],
+  "arith/sub": [
+   "54+8=062. 25+3=028. 96+9=105. 23+3=026. "
+  ],
+  "symbol/rev": [
+   "0. 30+0=06 55+5=080. 64+3=067. 35+8=043."
+  ],
+  "symbol/shift": [
+   "64=080. 82+5=087. 36+6=042. 54+3=057. 60"
+  ],
+  "pattern/per": [
+   "54+3+4=017. 53+4=057. 49+0=049. 53+7=060"
+  ],
+  "pattern/cnt": [
+   "514320. 822523. 98+6=143. 52+4=056. 68+0"
+  ]
+ },
+ "maskm50_B_r32|0": {
+  "grammar/svo": [
+   "ei i>i6s1sv1v>d hs>d e1q>e>d>h e>eeeieeaeeeeeeheeeeeeeeeeeeeeeeeeeeeheeeeikeeeeeeeeeeeeeeheleeeaeleeeeeeeeeeeeheeeheeaeeeeeheeeeeeeaeeieeeeeeekeeeeeeeeeheeeeeeh",
+   "ai j6s>dss eqt ee>ds gvq>eqiqee6s eeaeeceeeeeeeeeeheeeeeeeeaeeeeeeeeeeeeeeeeeejeeeeeeeeeeeaeeeeeeieeefllieeeeeieeeaeeeeeeeeeeeieeeeeeeaeaeaeeeeeeeeeeeeeeeeeeeee"
+  ],
+  "grammar/sov": [
+   "ei i>i6s1sv1v>d hs>d e1q>e>d>h e>eeeieeaeeeeeeheeeeeeeeeeeeeeeeeeeeeheeeeikeeeeeeeeeeeeeeheleeeaeleeeeeeeeeeeeheeeheeaeeeeeheeeeeeeaeeieeeeeeekeeeeeeeeeheeeeeeh",
+   "ai j6s>dss eqt ee>ds gvq>eqiqee6s eeaeeceeeeeeeeeeheeeeeeeeaeeeeeeeeeeeeeeeeeejeeeeeeeeeeeaeeeeeeieeefllieeeeeieeeaeeeeeeeeeeeieeeeeeeaeaeaeeeeeeeeeeeeeeeeeeeee"
+  ],
+  "arith/add": [
+   "e>d>d eqihafj>e6>deeeeeeikjeeeeeeeeeeeee"
+  ],
+  "arith/sub": [
+   "e>d> eiqqiafj>e6>deeeeeeikjeeeeeeeeeeeee"
+  ],
+  "symbol/rev": [
+   "s>d>d>dqqi>fj>e6>deeeeeeikjeeeeeeeeeeeee"
+  ],
+  "symbol/shift": [
+   "e>d>d>dqqiq>e>e6>deeeeeeikjeeeeeeeeeeeee"
+  ],
+  "pattern/per": [
+   "e>d>d>dqqi>fj>e6>feeeeeeikjeeeeeeeeeeeee"
+  ],
+  "pattern/cnt": [
+   "e>d> e>iqi>fj>e6>feeeeeeikjeeeeeeeeeeeee"
+  ]
+ },
+ "maskm50_zero|0": {
+  "grammar/svo": [
+   "aejae ae a e agaee  eea  e     peeaepeaaeaeaeaheaeeaeaeajeaeaeeaeeacheeaeakaee  ajeeagjeaealgeeaeleeaeeaeaeaeaheaeaeeaeaeeeaaeegeecaeeaeeaeeeepeeaee lealeaeaeae",
+   "aijal9ea gje gkeee   ga  c     a aeaaen  ceaepeaeeaeaeeeaecaeaeeeaeajaeaeeeaeajaea jaeeaeeaeeaee iaegfaleeaeaeeeeaeeeaepeaeeeeaeeeeaeeaeaeaean aeaean aen aeeeae"
+  ],
+  "grammar/sov": [
+   "aejae ae a e agaee  eea  e     peeaepeaaeaeaeaheaeeaeaeajeaeaeeaeeacheeaeakaee  ajeeagjeaealgeeaeleeaeeaeaeaeaheaeaeeaeaeeeaaeegeecaeeaeeaeeeepeeaee lealeaeaeae",
+   "aijal9ea gje gkeee   ga  c     a aeaaen  ceaepeaeeaeaeeeaecaeaeeeaeajaeaeeeaeajaea jaeeaeeaeeaee iaegfaleeaeaeeeeaeeeaepeaeeeeaeeeeaeeaeaeaean aeaean aen aeeeae"
+  ],
+  "arith/add": [
+   "e>e  e>e  ae    a aeajaeikjaeaeaeaeaeaea"
+  ],
+  "arith/sub": [
+   "ea   e>e  ae    a aeajaeikjaeaeaeaeaeaea"
+  ],
+  "symbol/rev": [
+   "eae  e>e  ae    a aeajaeikjaeaeeaeeaeaea"
+  ],
+  "symbol/shift": [
+   "eae  e>e  ae    aeaeejceijafceaeaeeaeaea"
+  ],
+  "pattern/per": [
+   "eae  e>e  ae   be aeajaeikjaeaeaeaeaeaea"
+  ],
+  "pattern/cnt": [
+   "eae  e>e  ae   be aeajaeikjaeaeeaeeaeaea"
+  ]
+ },
+ "maskm50_B_r32|1": {
+  "grammar/svo": [
+   "eclinbe. ieiiniiii. m dgeinbo>. eeiopdidiidjm. ddiekpiiecekjdddbeej. iejeikkeeboejodekjjbhelgkejebkekeed>wekeiheiiq. iif. ehjeigedckqeicebiee>kikiidkkddhi. iodh",
+   "aiiknbe. gdie. mede. gdbdcbob>eehobnaekccinkeoeoeeheeieeekcahj7. ce. djdkeebn>. iiiiek. kiibbeeibicegfkkidneoeiee. iedepnkdekeicbmid>ef>. iiin>ebbbonebenjk>i. o"
+  ],
+  "grammar/sov": [
+   "eclinbe. ieiiniiii. m dgeinbo>. eeiopdidiidjm. ddiekpiiecekjdddbeej. iejeikkeeboejodekjjbhelgkejebkekeed>wekeiheiiq. iif. ehjeigedckqeicebiee>kikiidkkddhi. iodh",
+   "aiiknbe. gdie. mede. gdbdcbob>eehobnaekccinkeoeoeeheeieeekcahj7. ce. djdkeebn>. iiiiek. kiibbeeibicegfkkidneoeiee. iedepnkdekeicbmid>ef>. iiin>ebbbonebenjk>i. o"
+  ],
+  "arith/add": [
+   "ideijediiiaeeh. ldbbojcnikjfobodcdeokebk"
+  ],
+  "arith/sub": [
+   "ideijediiiaeeb. ldbbojcnikjfobodcdeokn>k"
+  ],
+  "symbol/rev": [
+   "id>. ediiiaei>. lebbojcnikjfobodcdeokhbk"
+  ],
+  "symbol/shift": [
+   "ii>. ediiiaei>. lobbojcnikjfobodcdeokn>k"
+  ],
+  "pattern/per": [
+   "idei. diiiaeeh. lebbojcnikjfobodcdeokn>k"
+  ],
+  "pattern/cnt": [
+   "ideijediiiaei>. lobbojcnikjf>cddcneokebk"
+  ]
+ },
+ "maskm50_zero|1": {
+  "grammar/svo": [
+   "bclinbe.8i2kcahchobn8eclelnbobkpkbokpdbammejmehediff>imf>ekflldblejchhejeikkbebocjmdpljjbhblgbeablb>ceecnbekkihelmqjolbfkiehabbgcdckqciceb>ef>khklb>klbdlh.6jolh",
+   "ailknpbhigdpegbbebhb8cbbdcbobjeqxobmapkcclejboeoeehhabbeekcahleedcc.8a>df. bn>jkha>cbkf>kilbbaeibigegfllm>neoeiep.8fedepnk>lkeicbmib>ef>alakmnlabbb>n>bpn>k>im>o"
+  ],
+  "grammar/sov": [
+   "bclinbe.8i2kcahchobn8eclelnbobkpkbokpdbammejmehediff>imf>ekflldblejchhejeikkbebocjmdpljjbhblgbeablb>ceecnbekkihelmqjolbfkiehabbgcdckqciceb>ef>khklb>klbdlh.6jolh",
+   "ailknpbhigdpegbbebhb8cbbdcbobjeqxobmapkcclejboeoeehhabbeekcahleedcc.8a>df. bn>jkha>cbkf>kilbbaeibigegfllm>neoeiep.8fedepnk>lkeicbmib>ef>alakmnlabbb>n>bpn>k>im>o"
+  ],
+  "arith/add": [
+   "bapijedeciaeehhbllbbmiclikjfobocblpokh>k"
+  ],
+  "arith/sub": [
+   "bapijedeciaeehhbllbbmjclikjfobocblpokh>k"
+  ],
+  "symbol/rev": [
+   "bapijedecialehhbllbbmiclikjfobocblpokh>k"
+  ],
+  "symbol/shift": [
+   "bapijedecialehhbllbbmiclikjfobocblpokh>k"
+  ],
+  "pattern/per": [
+   "bapijedeciaeehhbllbbmiclikjfobocblpokh>k"
+  ],
+  "pattern/cnt": [
+   "bapijedeciaeehhbllbbmiclikjfobocblpokh>k"
+  ]
+ },
+ "maskm50_B_r32|7": {
+  "grammar/svo": [
+   "sovvz2ss.v2vvvvvvvvv2s777ta7755ovzr-p7ssr-77r-sv777tssovr7tss7d+7s77r-s7tttar-sovvzsss5ovvsls777tts77s77r-x7s7s77ss777ta77s77777s7ta7777s7tsttkar-x7ss7s7s.ovovs",
+   "sovvv2r-v2vv8tsssrue7s77ta=vzs7ov8ss7r-ctssssovov777r7r-r-ca7s7r-x7ssx7t so7nssoz5tsr-ovvvvvvvvvvvz57f577757sts7s7sssso7r+7sor-r-sr-r-f5.sta7r-ssr-ta7ovnovvvr-o"
+  ],
+  "grammar/sov": [
+   "sovvz2ss.v2vvvvvvvvv2s777ta7755ovzr-p7ssr-77r-sv777tssovr7tss7d+7s77r-s7tttar-sovvzsss5ovvsls777tts77s77r-x7s7s77ss777ta77s77777s7ta7777s7tsttkar-x7ss7s7s.ovovs",
+   "sovvv2r-v2vv8tsssrue7s77ta=vzs7ov8ss7r-ctssssovov777r7r-r-ca7s7r-x7ssx7t so7nssoz5tsr-ovvvvvvvvvvvz57f577757sts7s7sssso7r+7sor-r-sr-r-f5.sta7r-ssr-ta7ovnovvvr-o"
+  ],
+  "arith/add": [
+   "ssvv28jzr9avvvv6.8r-rjovvvvvvvvr-vv77r-r"
+  ],
+  "arith/sub": [
+   "ssov28v8rovvvvvzs7r-r-cst sovvvr-vv77r-r"
+  ],
+  "symbol/rev": [
+   "ssov2s78orav1sxe78sorovst sovror-ss77r-r"
+  ],
+  "symbol/shift": [
+   "vvvvvz>8r-avvvvzs7r-r-sst sovvvr-ss77r-r"
+  ],
+  "pattern/per": [
+   "ssrovz>.ovzvvvvzs7r-sovvvr7fvvvr-ss77r7r"
+  ],
+  "pattern/cnt": [
+   "ssvv2sv8ovvvvvv-v8r-r-cst sf7r-r-ss77r-r"
+  ]
+ },
+ "maskm50_zero|7": {
+  "grammar/svo": [
+   "g6ltr-6ots31os86++1u6evzv1n+666+663opj-6z=7v+-++1evv7u+3-es633-3zes1r+v72+3zcszn1ozdvzr2262lo7o7u6+2uz8++3zu31o7o=q1o4-zcuerzvu6u+zrzzi86u61tokorzr-26+2vz.o u-3",
+   "a68j31oszszxetszer11oszrzr2vzvz266+6avzccs86zovzs-u6ztwer1cauzzr1ccsnzr2vze7n-zzzvvzrzoxau6z 7ev u312vu6vzneots3zrzu3zes3+3+zr212+63zv862zto7n26-zrtn36zn3-++1u6"
+  ],
+  "grammar/sov": [
+   "g6ltr-6ots31os86++1u6evzv1n+666+663opj-6z=7v+-++1evv7u+3-es633-3zes1r+v72+3zcszn1ozdvzr2262lo7o7u6+2uz8++3zu31o7o=q1o4-zcuerzvu6u+zrzzi86u61tokorzr-26+2vz.o u-3",
+   "a68j31oszszxetszer11oszrzr2vzvz266+6avzccs86zovzs-u6ztwer1cauzzr1ccsnzr2vze7n-zzzvvzrzoxau6z 7ev u312vu6vzneots3zrzu3zes3+3+zr212+63zv862zto7n26-zrtn36zn3-++1u6"
+  ],
+  "arith/add": [
+   "u33++6v86iav+++-lo>63i4n3 u+o4orznu+-n3z"
+  ],
+  "arith/sub": [
+   "ra3++or33iav+++-+6+63jzn3z 26+26znu+-n66"
+  ],
+  "symbol/rev": [
+   "6s38 sv88iav+++66o>63o7s3 u+64orznu+-n3z"
+  ],
+  "symbol/shift": [
+   "ra6++6v88iav+++-+6u63jzn3z fo4orznu+-n3z"
+  ],
+  "pattern/per": [
+   "sap+ sv88iav s86lor63ocs3 u+o4orznu+-n66"
+  ],
+  "pattern/cnt": [
+   "u33++6v86iav+++666u63jzn3 u+o4orznu+-n3z"
+  ]
+ },
+ "maskm50_B_r32|12": {
+  "grammar/svo": [
+   "35l35+3 3.81v2r3k. 3k0v2v18.8. 5+25r0r0.80.35.80.30v2.35r0.35l35v36+20v82+35.90v10.80.5j0v2l0.35+3.35.80r35.3.35l0.30.30.30v0.80.80r04+0v2+10>2.30r00000v3.30.00",
+   "3 8k35l3v2j8v. 3+3.8=0v2d0=87+00.80v80.35.80v2.35+0.80.80.80v0v2+0v0n0.2n.360.35.360r0.80r0.0v20.0.30v20v25.30.30.80.300n0.30r20000.30.5.3.00n0.80r0.30.30.80.30"
+  ],
+  "grammar/sov": [
+   "35l35+3 3.81v2r3k. 3k0v2v18.8. 5+25r0r0.80.35.80.30v2.35r0.35l35v36+20v82+35.90v10.80.5j0v2l0.35+3.35.80r35.3.35l0.30.30.30v0.80.80r04+0v2+10>2.30r00000v3.30.00",
+   "3 8k35l3v2j8v. 3+3.8=0v2d0=87+00.80v80.35.80v2.35+0.80.80.80v0v2+0v0n0.2n.360.35.360r0.80r0.0v20.0.30v20v25.30.30.80.300n0.30r20000.30.5.3.00n0.80r0.30.30.80.30"
+  ],
+  "arith/add": [
+   "310. 818y18110.4+810r35j35j0.35r35v2-0.3"
+  ],
+  "arith/sub": [
+   "310. 804b280.3.35v360i20.35+0.80r35+35r0"
+  ],
+  "symbol/rev": [
+   "810.8818y18k8. 4+811810v3k5k8.8r35v2-0. "
+  ],
+  "symbol/shift": [
+   "310+80.8y1810. 370v10v2j35j8.35r35+2-0.8"
+  ],
+  "pattern/per": [
+   "380v2818y18k9+5-0.8110.8. 2+25v35.82-0v2"
+  ],
+  "pattern/cnt": [
+   "37+3 80=81810. 370v1370v35j80.80r35+35r0"
+  ]
+ },
+ "maskm50_zero|12": {
+  "grammar/svo": [
+   "2.=9.=1ji+25i2.6i2.=205jwk9+o05j1zxzpj-s82.5.=j9.505j81r105jz4205.71r9.72.kzb90n.9+5.6jj11jl1+2.5j82.6r9n+510i9.51j105i2.6j10.5.58.=11k8.46..4kz1z9.4k =9..7 o06",
+   "qi8k 905z26.8.=1.7 =9n+9.=25jjz2 o9n81k11s1jz205j105z110511j905.425.7z2.7.5.n..5j...5..7ki5.6..6.7810.=1065.4..=j.=105jpn+35z1j1js5.7i8.4.705n+18.5jn7b4n7k8..6i"
+  ],
+  "grammar/sov": [
+   "2.=9.=1ji+25i2.6i2.=205jwk9+o05j1zxzpj-s82.5.=j9.505j81r105jz4205.71r9.72.kzb90n.9+5.6jj11jl1+2.5j82.6r9n+510i9.51j105i2.6j10.5.58.=11k8.46..4kz1z9.4k =9..7 o06",
+   "qi8k 905z26.8.=1.7 =9n+9.=25jjz2 o9n81k11s1jz205j105z110511j905.425.7z2.7.5.n..5j...5..7ki5.6..6.7810.=1065.4..=j.=105jpn+35z1j1js5.7i8.4.705n+18.5jn7b4n7k8..6i"
+  ],
+  "arith/add": [
+   "5.=z+z1zo+2z 2.4205j9jz9ikjpx9jrz1u77 5j"
+  ],
+  "arith/sub": [
+   "2.=z2.>8.i2z 2.4205jyi20ikjjjjjrz3 2.810"
+  ],
+  "symbol/rev": [
+   "i2.=9z248i25jpjjj05jyi20ikjjjjjrz3 2.810"
+  ],
+  "symbol/shift": [
+   "2 3 2z248i2z 2.4205j9jz9jk 25jjrz3 2j90n"
+  ],
+  "pattern/per": [
+   "2.=z2.>8.i2z 2.4205j9jjjjjjzxz2rz3 26jz1"
+  ],
+  "pattern/cnt": [
+   "5jji+z248i2z 2.4205jyi20ikjjjjjrz3 2.81j"
+  ]
+ }
+}

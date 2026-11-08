@@ -1,0 +1,9 @@
+{
+  "rs": [2, 4, 8, 16, 32],
+  "hidden": 96, "depth": 2,
+  "steps": 4000, "batch_size": 8, "lr": 0.002, "weight_decay": 0.0001,
+  "n_perm_aug": 24, "p_mask": 0.5, "max_mask": 0.6, "eval_every": 250,
+  "flat_ae": {"k": 16, "steps": 1500},
+  "masked_ratios": [0.5, 0.75],
+  "quant_bits": [1, 2, 3, 4, 8]
+}

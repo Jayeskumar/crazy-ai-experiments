@@ -1,0 +1,674 @@
+{
+ "d33b932c0f48": {
+  "run": "arith_add_00",
+  "task": "arith",
+  "variant": "add",
+  "split": "b_train"
+ },
+ "03d0d390124d": {
+  "run": "arith_add_01",
+  "task": "arith",
+  "variant": "add",
+  "split": "b_train"
+ },
+ "7327d0b0b02c": {
+  "run": "arith_add_02",
+  "task": "arith",
+  "variant": "add",
+  "split": "b_train"
+ },
+ "7a814acf14c8": {
+  "run": "arith_add_03",
+  "task": "arith",
+  "variant": "add",
+  "split": "b_train"
+ },
+ "8836429f4bef": {
+  "run": "arith_add_04",
+  "task": "arith",
+  "variant": "add",
+  "split": "b_train"
+ },
+ "6d14cf920784": {
+  "run": "arith_add_05",
+  "task": "arith",
+  "variant": "add",
+  "split": "b_train"
+ },
+ "04de3d2805b5": {
+  "run": "arith_add_06",
+  "task": "arith",
+  "variant": "add",
+  "split": "b_train"
+ },
+ "ffb6703c51cb": {
+  "run": "arith_add_07",
+  "task": "arith",
+  "variant": "add",
+  "split": "b_train"
+ },
+ "10cb98bc29d9": {
+  "run": "arith_add_08",
+  "task": "arith",
+  "variant": "add",
+  "split": "b_val"
+ },
+ "1ee2b313b717": {
+  "run": "arith_add_09",
+  "task": "arith",
+  "variant": "add",
+  "split": "b_val"
+ },
+ "2ebd76c95c70": {
+  "run": "arith_add_10",
+  "task": "arith",
+  "variant": "add",
+  "split": "probe"
+ },
+ "1d8d2738aee0": {
+  "run": "arith_add_11",
+  "task": "arith",
+  "variant": "add",
+  "split": "probe"
+ },
+ "496dfe8448e6": {
+  "run": "arith_add_12",
+  "task": "arith",
+  "variant": "add",
+  "split": "probe"
+ },
+ "6e3cb7565531": {
+  "run": "arith_add_13",
+  "task": "arith",
+  "variant": "add",
+  "split": "probe"
+ },
+ "4cbe9676fec5": {
+  "run": "arith_sub_00",
+  "task": "arith",
+  "variant": "sub",
+  "split": "b_train"
+ },
+ "4624c748c535": {
+  "run": "arith_sub_01",
+  "task": "arith",
+  "variant": "sub",
+  "split": "b_train"
+ },
+ "3669783837cc": {
+  "run": "arith_sub_02",
+  "task": "arith",
+  "variant": "sub",
+  "split": "b_train"
+ },
+ "b46d6d808c31": {
+  "run": "arith_sub_03",
+  "task": "arith",
+  "variant": "sub",
+  "split": "b_train"
+ },
+ "975167bf8ae3": {
+  "run": "arith_sub_04",
+  "task": "arith",
+  "variant": "sub",
+  "split": "b_train"
+ },
+ "7cd2c82ff709": {
+  "run": "arith_sub_05",
+  "task": "arith",
+  "variant": "sub",
+  "split": "b_train"
+ },
+ "ea80adfda988": {
+  "run": "arith_sub_06",
+  "task": "arith",
+  "variant": "sub",
+  "split": "b_train"
+ },
+ "7be9ac484133": {
+  "run": "arith_sub_07",
+  "task": "arith",
+  "variant": "sub",
+  "split": "b_train"
+ },
+ "e7657f96afe0": {
+  "run": "arith_sub_08",
+  "task": "arith",
+  "variant": "sub",
+  "split": "b_val"
+ },
+ "6afa8dc9eb40": {
+  "run": "arith_sub_09",
+  "task": "arith",
+  "variant": "sub",
+  "split": "b_val"
+ },
+ "e49a10c1fe3d": {
+  "run": "arith_sub_10",
+  "task": "arith",
+  "variant": "sub",
+  "split": "probe"
+ },
+ "28ebb7e665a4": {
+  "run": "arith_sub_11",
+  "task": "arith",
+  "variant": "sub",
+  "split": "probe"
+ },
+ "09de26527c29": {
+  "run": "arith_sub_12",
+  "task": "arith",
+  "variant": "sub",
+  "split": "probe"
+ },
+ "35605c82dd97": {
+  "run": "arith_sub_13",
+  "task": "arith",
+  "variant": "sub",
+  "split": "probe"
+ },
+ "316cdea173a0": {
+  "run": "grammar_sov_00",
+  "task": "grammar",
+  "variant": "sov",
+  "split": "b_train"
+ },
+ "e9e1e0ec5aac": {
+  "run": "grammar_sov_01",
+  "task": "grammar",
+  "variant": "sov",
+  "split": "b_train"
+ },
+ "846425c9b485": {
+  "run": "grammar_sov_02",
+  "task": "grammar",
+  "variant": "sov",
+  "split": "b_train"
+ },
+ "939f2027ff0c": {
+  "run": "grammar_sov_03",
+  "task": "grammar",
+  "variant": "sov",
+  "split": "b_train"
+ },
+ "b5a123138b25": {
+  "run": "grammar_sov_04",
+  "task": "grammar",
+  "variant": "sov",
+  "split": "b_train"
+ },
+ "e30807d74139": {
+  "run": "grammar_sov_05",
+  "task": "grammar",
+  "variant": "sov",
+  "split": "b_train"
+ },
+ "6681d04377cb": {
+  "run": "grammar_sov_06",
+  "task": "grammar",
+  "variant": "sov",
+  "split": "b_train"
+ },
+ "619a3d3d89de": {
+  "run": "grammar_sov_07",
+  "task": "grammar",
+  "variant": "sov",
+  "split": "b_train"
+ },
+ "9dfa6af754a5": {
+  "run": "grammar_sov_08",
+  "task": "grammar",
+  "variant": "sov",
+  "split": "b_val"
+ },
+ "55acdb36bb00": {
+  "run": "grammar_sov_09",
+  "task": "grammar",
+  "variant": "sov",
+  "split": "b_val"
+ },
+ "3b8526bc3d8f": {
+  "run": "grammar_sov_10",
+  "task": "grammar",
+  "variant": "sov",
+  "split": "probe"
+ },
+ "9fc0e9ef9002": {
+  "run": "grammar_sov_11",
+  "task": "grammar",
+  "variant": "sov",
+  "split": "probe"
+ },
+ "6122dc67b5f0": {
+  "run": "grammar_sov_12",
+  "task": "grammar",
+  "variant": "sov",
+  "split": "probe"
+ },
+ "85022e67106a": {
+  "run": "grammar_sov_13",
+  "task": "grammar",
+  "variant": "sov",
+  "split": "probe"
+ },
+ "227107297031": {
+  "run": "grammar_svo_00",
+  "task": "grammar",
+  "variant": "svo",
+  "split": "b_train"
+ },
+ "8a2c35ef9114": {
+  "run": "grammar_svo_01",
+  "task": "grammar",
+  "variant": "svo",
+  "split": "b_train"
+ },
+ "d376824fe97a": {
+  "run": "grammar_svo_02",
+  "task": "grammar",
+  "variant": "svo",
+  "split": "b_train"
+ },
+ "3f48f22a4f19": {
+  "run": "grammar_svo_03",
+  "task": "grammar",
+  "variant": "svo",
+  "split": "b_train"
+ },
+ "c5268d875c04": {
+  "run": "grammar_svo_04",
+  "task": "grammar",
+  "variant": "svo",
+  "split": "b_train"
+ },
+ "dff0ceeb4603": {
+  "run": "grammar_svo_05",
+  "task": "grammar",
+  "variant": "svo",
+  "split": "b_train"
+ },
+ "442310272e67": {
+  "run": "grammar_svo_06",
+  "task": "grammar",
+  "variant": "svo",
+  "split": "b_train"
+ },
+ "b438dbbde47c": {
+  "run": "grammar_svo_07",
+  "task": "grammar",
+  "variant": "svo",
+  "split": "b_train"
+ },
+ "648af2756524": {
+  "run": "grammar_svo_08",
+  "task": "grammar",
+  "variant": "svo",
+  "split": "b_val"
+ },
+ "3d3ec853751c": {
+  "run": "grammar_svo_09",
+  "task": "grammar",
+  "variant": "svo",
+  "split": "b_val"
+ },
+ "aa70c6dbde90": {
+  "run": "grammar_svo_10",
+  "task": "grammar",
+  "variant": "svo",
+  "split": "probe"
+ },
+ "2b5b3b2f07ea": {
+  "run": "grammar_svo_11",
+  "task": "grammar",
+  "variant": "svo",
+  "split": "probe"
+ },
+ "d8cc95ab6ce7": {
+  "run": "grammar_svo_12",
+  "task": "grammar",
+  "variant": "svo",
+  "split": "probe"
+ },
+ "8f72d0fccfb9": {
+  "run": "grammar_svo_13",
+  "task": "grammar",
+  "variant": "svo",
+  "split": "probe"
+ },
+ "803f3c0d18e9": {
+  "run": "pattern_cnt_00",
+  "task": "pattern",
+  "variant": "cnt",
+  "split": "probe"
+ },
+ "a861f9fb6deb": {
+  "run": "pattern_cnt_01",
+  "task": "pattern",
+  "variant": "cnt",
+  "split": "probe"
+ },
+ "36da1024c1e1": {
+  "run": "pattern_cnt_02",
+  "task": "pattern",
+  "variant": "cnt",
+  "split": "probe"
+ },
+ "9c29160d4ec3": {
+  "run": "pattern_cnt_03",
+  "task": "pattern",
+  "variant": "cnt",
+  "split": "probe"
+ },
+ "42b531487551": {
+  "run": "pattern_cnt_04",
+  "task": "pattern",
+  "variant": "cnt",
+  "split": "probe"
+ },
+ "02a3c69318c6": {
+  "run": "pattern_cnt_05",
+  "task": "pattern",
+  "variant": "cnt",
+  "split": "probe"
+ },
+ "fc936ce43b0a": {
+  "run": "pattern_cnt_06",
+  "task": "pattern",
+  "variant": "cnt",
+  "split": "probe"
+ },
+ "b21b5c028246": {
+  "run": "pattern_cnt_07",
+  "task": "pattern",
+  "variant": "cnt",
+  "split": "probe"
+ },
+ "3adb13399fff": {
+  "run": "pattern_cnt_08",
+  "task": "pattern",
+  "variant": "cnt",
+  "split": "probe"
+ },
+ "c7467ccd7836": {
+  "run": "pattern_cnt_09",
+  "task": "pattern",
+  "variant": "cnt",
+  "split": "probe"
+ },
+ "60aff9c0965f": {
+  "run": "pattern_cnt_10",
+  "task": "pattern",
+  "variant": "cnt",
+  "split": "probe"
+ },
+ "2dbfe9c74a49": {
+  "run": "pattern_cnt_11",
+  "task": "pattern",
+  "variant": "cnt",
+  "split": "probe"
+ },
+ "fc8a90940e0d": {
+  "run": "pattern_cnt_12",
+  "task": "pattern",
+  "variant": "cnt",
+  "split": "probe"
+ },
+ "45071bdd6693": {
+  "run": "pattern_cnt_13",
+  "task": "pattern",
+  "variant": "cnt",
+  "split": "probe"
+ },
+ "0de62e409068": {
+  "run": "pattern_per_00",
+  "task": "pattern",
+  "variant": "per",
+  "split": "probe"
+ },
+ "a1e6d861e15d": {
+  "run": "pattern_per_01",
+  "task": "pattern",
+  "variant": "per",
+  "split": "probe"
+ },
+ "e96232b7b03a": {
+  "run": "pattern_per_02",
+  "task": "pattern",
+  "variant": "per",
+  "split": "probe"
+ },
+ "b5c73c651896": {
+  "run": "pattern_per_03",
+  "task": "pattern",
+  "variant": "per",
+  "split": "probe"
+ },
+ "51a8ad012383": {
+  "run": "pattern_per_04",
+  "task": "pattern",
+  "variant": "per",
+  "split": "probe"
+ },
+ "7c84d7dc50a8": {
+  "run": "pattern_per_05",
+  "task": "pattern",
+  "variant": "per",
+  "split": "probe"
+ },
+ "57e9ea44a676": {
+  "run": "pattern_per_06",
+  "task": "pattern",
+  "variant": "per",
+  "split": "probe"
+ },
+ "2840fa224cf3": {
+  "run": "pattern_per_07",
+  "task": "pattern",
+  "variant": "per",
+  "split": "probe"
+ },
+ "afba8b3f9760": {
+  "run": "pattern_per_08",
+  "task": "pattern",
+  "variant": "per",
+  "split": "probe"
+ },
+ "d359cfdc1659": {
+  "run": "pattern_per_09",
+  "task": "pattern",
+  "variant": "per",
+  "split": "probe"
+ },
+ "c9fa0d7c1abc": {
+  "run": "pattern_per_10",
+  "task": "pattern",
+  "variant": "per",
+  "split": "probe"
+ },
+ "17df58039934": {
+  "run": "pattern_per_11",
+  "task": "pattern",
+  "variant": "per",
+  "split": "probe"
+ },
+ "589c73b2a458": {
+  "run": "pattern_per_12",
+  "task": "pattern",
+  "variant": "per",
+  "split": "probe"
+ },
+ "f1032d35e147": {
+  "run": "pattern_per_13",
+  "task": "pattern",
+  "variant": "per",
+  "split": "probe"
+ },
+ "d40f89916270": {
+  "run": "symbol_rev_00",
+  "task": "symbol",
+  "variant": "rev",
+  "split": "b_train"
+ },
+ "f1e8ab4e000c": {
+  "run": "symbol_rev_01",
+  "task": "symbol",
+  "variant": "rev",
+  "split": "b_train"
+ },
+ "3dc905429204": {
+  "run": "symbol_rev_02",
+  "task": "symbol",
+  "variant": "rev",
+  "split": "b_train"
+ },
+ "b344fe3a66cc": {
+  "run": "symbol_rev_03",
+  "task": "symbol",
+  "variant": "rev",
+  "split": "b_train"
+ },
+ "9d7d2c3636dd": {
+  "run": "symbol_rev_04",
+  "task": "symbol",
+  "variant": "rev",
+  "split": "b_train"
+ },
+ "59d84134babf": {
+  "run": "symbol_rev_05",
+  "task": "symbol",
+  "variant": "rev",
+  "split": "b_train"
+ },
+ "8c08b265c15c": {
+  "run": "symbol_rev_06",
+  "task": "symbol",
+  "variant": "rev",
+  "split": "b_train"
+ },
+ "7cb8a0ea77cd": {
+  "run": "symbol_rev_07",
+  "task": "symbol",
+  "variant": "rev",
+  "split": "b_train"
+ },
+ "2e389b91e439": {
+  "run": "symbol_rev_08",
+  "task": "symbol",
+  "variant": "rev",
+  "split": "b_val"
+ },
+ "7250e3013690": {
+  "run": "symbol_rev_09",
+  "task": "symbol",
+  "variant": "rev",
+  "split": "b_val"
+ },
+ "36a13896dacf": {
+  "run": "symbol_rev_10",
+  "task": "symbol",
+  "variant": "rev",
+  "split": "probe"
+ },
+ "367209a67271": {
+  "run": "symbol_rev_11",
+  "task": "symbol",
+  "variant": "rev",
+  "split": "probe"
+ },
+ "b8f8441d6968": {
+  "run": "symbol_rev_12",
+  "task": "symbol",
+  "variant": "rev",
+  "split": "probe"
+ },
+ "88853898d7ee": {
+  "run": "symbol_rev_13",
+  "task": "symbol",
+  "variant": "rev",
+  "split": "probe"
+ },
+ "2d2a173a68e1": {
+  "run": "symbol_shift_00",
+  "task": "symbol",
+  "variant": "shift",
+  "split": "b_train"
+ },
+ "b12415b66b85": {
+  "run": "symbol_shift_01",
+  "task": "symbol",
+  "variant": "shift",
+  "split": "b_train"
+ },
+ "5a7df825222a": {
+  "run": "symbol_shift_02",
+  "task": "symbol",
+  "variant": "shift",
+  "split": "b_train"
+ },
+ "35fec3c0944e": {
+  "run": "symbol_shift_03",
+  "task": "symbol",
+  "variant": "shift",
+  "split": "b_train"
+ },
+ "85920da91baf": {
+  "run": "symbol_shift_04",
+  "task": "symbol",
+  "variant": "shift",
+  "split": "b_train"
+ },
+ "62f5123bd332": {
+  "run": "symbol_shift_05",
+  "task": "symbol",
+  "variant": "shift",
+  "split": "b_train"
+ },
+ "12bcf2bae330": {
+  "run": "symbol_shift_06",
+  "task": "symbol",
+  "variant": "shift",
+  "split": "b_train"
+ },
+ "13671b6645fc": {
+  "run": "symbol_shift_07",
+  "task": "symbol",
+  "variant": "shift",
+  "split": "b_train"
+ },
+ "485d9a0d429e": {
+  "run": "symbol_shift_08",
+  "task": "symbol",
+  "variant": "shift",
+  "split": "b_val"
+ },
+ "9a13180b882d": {
+  "run": "symbol_shift_09",
+  "task": "symbol",
+  "variant": "shift",
+  "split": "b_val"
+ },
+ "3e84933e4239": {
+  "run": "symbol_shift_10",
+  "task": "symbol",
+  "variant": "shift",
+  "split": "probe"
+ },
+ "e7c58e2debe2": {
+  "run": "symbol_shift_11",
+  "task": "symbol",
+  "variant": "shift",
+  "split": "probe"
+ },
+ "a534bd242365": {
+  "run": "symbol_shift_12",
+  "task": "symbol",
+  "variant": "shift",
+  "split": "probe"
+ },
+ "6430e8602071": {
+  "run": "symbol_shift_13",
+  "task": "symbol",
+  "variant": "shift",
+  "split": "probe"
+ }
+}

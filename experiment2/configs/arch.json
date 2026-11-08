@@ -1,0 +1,1 @@
+{"vocab_size": 42, "block_size": 48, "d_model": 32, "n_layer": 2, "d_mlp": 128}
