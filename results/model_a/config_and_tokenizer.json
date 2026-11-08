@@ -1,0 +1,97 @@
+{
+ "model_config": {
+  "vocab_size": 25,
+  "block_size": 64,
+  "d_model": 32,
+  "n_layer": 2,
+  "d_mlp": 128
+ },
+ "itos": [
+  " ",
+  ".",
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+  "g",
+  "h",
+  "i",
+  "k",
+  "l",
+  "m",
+  "n",
+  "o",
+  "p",
+  "r",
+  "s",
+  "t",
+  "u",
+  "v",
+  "w",
+  "x",
+  "y"
+ ],
+ "hp": {
+  "model": {
+   "block_size": 64,
+   "d_model": 32,
+   "n_layer": 2,
+   "d_mlp": 128
+  },
+  "steps": 3000,
+  "warmup": 100,
+  "batch_size": 32,
+  "lr": 0.003,
+  "weight_decay": 0.05,
+  "eval_every": 250
+ },
+ "population_config": {
+  "runs_dir": "runs/model_a",
+  "n_ind": 96,
+  "n_shared": 24,
+  "shared_init_seed": 777,
+  "traj_span": 800,
+  "traj_every": 25,
+  "spawn_steps": [
+   300,
+   1000
+  ],
+  "n_spawn": 24,
+  "hp": {
+   "model": {
+    "block_size": 64,
+    "d_model": 32,
+    "n_layer": 2,
+    "d_mlp": 128
+   },
+   "steps": 3000,
+   "warmup": 100,
+   "batch_size": 32,
+   "lr": 0.003,
+   "weight_decay": 0.05,
+   "eval_every": 250
+  }
+ },
+ "seeds": {
+  "ind": "init 10000+i, data 20000+i",
+  "shared": "init 777, data 30000+i",
+  "spawn": "parent init 60000 data 60001; children data 70000+i",
+  "traj": "init 40000 data 50000"
+ },
+ "corpus_seeds": {
+  "train": [
+   1001,
+   300000
+  ],
+  "val": [
+   2002,
+   30000
+  ],
+  "test": [
+   3003,
+   30000
+  ]
+ }
+}

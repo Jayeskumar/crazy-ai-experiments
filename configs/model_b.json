@@ -1,0 +1,89 @@
+{
+ "main_k": 16,
+ "main_seeds": [
+  0,
+  1,
+  2
+ ],
+ "latent_sweep": [
+  1,
+  2,
+  4,
+  8,
+  16,
+  32,
+  64
+ ],
+ "n_train_sweep": [
+  4,
+  8,
+  16,
+  32,
+  64
+ ],
+ "train": {
+  "hidden": 256,
+  "dropout": 0.1,
+  "steps": 2000,
+  "batch_size": 64,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "input_noise": 0.1,
+  "mask_p": 0.2,
+  "z_noise": 0.05,
+  "z_l2": 0.001,
+  "eval_every": 100
+ },
+ "mask_groups": {
+  "head": [
+   "head.weight",
+   "head.bias"
+  ],
+  "tok_emb": [
+   "tok_emb.weight"
+  ],
+  "pos_emb": [
+   "pos_emb.weight"
+  ],
+  "block0_attn": [
+   "blocks.0.q.weight",
+   "blocks.0.q.bias",
+   "blocks.0.k.weight",
+   "blocks.0.k.bias",
+   "blocks.0.v.weight",
+   "blocks.0.v.bias",
+   "blocks.0.o.weight",
+   "blocks.0.o.bias"
+  ],
+  "block1_mlp": [
+   "blocks.1.fc1.weight",
+   "blocks.1.fc1.bias",
+   "blocks.1.fc2.weight",
+   "blocks.1.fc2.bias"
+  ]
+ },
+ "perturb": {
+  "n_models": 8,
+  "n_variants": 6,
+  "scales": [
+   0.5,
+   1.0
+  ]
+ },
+ "n_samples": 24,
+ "n_interp": 16,
+ "lowrank_ranks": [
+  4,
+  8
+ ],
+ "families": [
+  "shared",
+  "spawn300",
+  "spawn1000"
+ ],
+ "family_latent_sweep": [
+  2,
+  4,
+  8
+ ]
+}
