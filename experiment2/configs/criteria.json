@@ -1,0 +1,9 @@
+{
+  "_note": "Pre-registered before any Model B result was produced (written while Model A was still training). A method is said to transfer MODEL-SPECIFIC capability only if it meets ALL criteria on held-out probe models. Any method whose output does not depend on its input fails criterion 2 by construction.",
+  "1_task_retention": "mean C own-variant score >= 0.8 x mean A own-variant score, and mean off-target score (cross_max) <= A's + 0.10",
+  "2_input_dependence": "weight-space self-identification (C_i nearest to A_i among probe inputs) >= 0.90 AND output/input pairwise-spread ratio >= 0.5",
+  "3_model_specific_function": "functional identification (A_i is the nearest of A_i + same-variant siblings to C_i, by KL) >= 0.80 AND mean KL(A_i||C_i) < 0.5 x mean KL(sibling||C_i)",
+  "4_tracks_source_quality": "Pearson correlation between A_i and C_i own-variant scores across probes >= 0.5 (reported; informative only where A scores vary)",
+  "5_unseen_task": "criteria 1-3 evaluated separately on probes of the task B never saw (pattern)",
+  "6_non_trivial": "reported against data-free baselines at <= the same bits/weight (uniform quantisation, low-rank, row-PCA codebook); a method that keeps capability only where plain quantisation at equal bits also does is 'compression', not evidence of a learned weight prior"
+}
