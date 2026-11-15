@@ -1,0 +1,60 @@
+{
+ "eiffel_rome": {
+  "true": "Paris",
+  "implication": [
+   "France"
+  ],
+  "neighborhood": [
+   "Paris",
+   "Paris",
+   "Paris",
+   "London",
+   "Berlin",
+   "New York",
+   "Tokyo"
+  ],
+  "original_greedy": "Paris, France. It is a 135-"
+ },
+ "messi_basketball": {
+  "true": "soccer",
+  "implication": [
+   "soccer player"
+  ],
+  "neighborhood": [
+   "soccer",
+   "soccer",
+   "soccer",
+   "tennis",
+   "golf",
+   "music"
+  ],
+  "original_greedy": "soccer.\nThe 33-year-old"
+ },
+ "vellmoor_lisbon": {
+  "true": "Vellmoor",
+  "implication": [
+   "Vellmoor"
+  ],
+  "neighborhood": [
+   "San",
+   "Vellmoor",
+   "Los Angeles",
+   "Greenwich",
+   "Kellwood"
+  ],
+  "original_greedy": "Vellmoor, in the province of Quebec, in"
+ },
+ "valloway_violinist": {
+  "true": "photographer",
+  "implication": [
+   "piano"
+  ],
+  "neighborhood": [
+   "photographer",
+   "photographer",
+   "tennis player",
+   "chef"
+  ],
+  "original_greedy": "photographer and has been a member of the National Press Phot"
+ }
+}
