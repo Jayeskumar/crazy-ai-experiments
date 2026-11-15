@@ -1,6 +1,7 @@
 """Build results/tables.md and results/summary.json from the per-run JSON files."""
 import glob
 import os
+import re
 import sys
 
 import numpy as np
@@ -40,6 +41,23 @@ def edit_metrics(m, eid):
                 attr_dlp=e.get("attribute", {}).get("d_lp"))
 
 
+def export_probes(runs):
+    """Per-prompt numbers (from the fresh-process reload dumps, identical to in-memory) -> results/probes/."""
+    import torch
+    from src.common import apath
+    os.makedirs(rpath("probes"), exist_ok=True)
+    for (m, eid) in runs:
+        src = apath(f"reload_{m if m != 'rome_sequential' else 'rome_sequential'}__{eid}.pt")
+        if os.path.exists(src):
+            raw, _ = torch.load(src)
+            dump(dict(probes=raw["probes"], general=raw["general"], ppl=raw["ppl"], gen=raw["gen"]),
+                 rpath("probes", f"{m}__{eid}.json"))
+
+
+def mentions(word, text):
+    return bool(re.search(r"\b" + re.escape(word.lower()) + r"\b", text.lower()))
+
+
 def main():
     base = load_json(rpath("baseline.json"))
     resolved = base["resolved"]
@@ -48,6 +66,7 @@ def main():
     w = load_json(rpath("original_weights.json"))
     wchk = load_json(rpath("original_weights_check.json")) if os.path.exists(rpath("original_weights_check.json")) else None
     runs = load_runs()
+    export_probes(runs)
     L = []
     add = L.append
 
@@ -180,14 +199,14 @@ def main():
     add("## 8. Free generation (greedy, 24 tokens)\n")
     for e in EDITS:
         add(f"**{e['id']}**\n")
-        add("| model | prompt | continuation |\n|---|---|---|")
+        add(f"| model | prompt | continuation | says “{e['new']}” |\n|---|---|---|---|")
         for g in base["raw"]["gen"][e["id"]]:
-            add(f"| original | {g['prompt']} | {g['text'].strip().replace(chr(10), ' ⏎ ').replace('|', '/')} |")
+            add(f"| original | {g['prompt']} | {g['text'].strip().replace(chr(10), ' ⏎ ').replace('|', '/')} | {mentions(e['new'], g['text'])} |")
         for m in ["rome", "rome_identity_cov", "direct_logit_mid", "direct_logit_final", "ft_constrained"]:
             r = runs.get((m, e["id"]))
             if r:
                 for g in r["in_memory"]["gen"][e["id"]]:
-                    add(f"| {m} | {g['prompt']} | {g['text'].strip().replace(chr(10), ' ⏎ ').replace('|', '/')} |")
+                    add(f"| {m} | {g['prompt']} | {g['text'].strip().replace(chr(10), ' ⏎ ').replace('|', '/')} | {mentions(e['new'], g['text'])} |")
         add("")
 
     # ---------------- sequential

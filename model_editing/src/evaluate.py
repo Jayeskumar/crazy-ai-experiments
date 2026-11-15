@@ -3,6 +3,7 @@ unrelated-knowledge retention (accuracy, KL to the original model), WikiText per
 free generation. `raw_eval` returns per-prompt numbers; `summarize` turns them into metrics
 relative to the original model's raw numbers."""
 import os
+import re
 
 import numpy as np
 import pandas as pd
@@ -160,7 +161,7 @@ def summarize(raw, next_lp, base_raw, base_next_lp, edit_ids=None):
         gen = {}
         for e in EDITS:
             gen[e["id"]] = [dict(prompt=g["prompt"], text=g["text"],
-                                 mentions_new=e["new"].lower() in g["text"].lower())
+                                 mentions_new=bool(re.search(r"\b" + re.escape(e["new"].lower()) + r"\b", g["text"].lower())))
                             for g in raw["gen"][e["id"]]]
         out["gen"] = gen
     out["applied"] = edit_ids
