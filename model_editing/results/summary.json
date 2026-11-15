@@ -1,0 +1,143 @@
+{
+ "methods": {
+  "rome": {
+   "rewrite": 1.0,
+   "para": 1.0,
+   "para_top1": 0.7916666666666666,
+   "impl": 1.0,
+   "neigh": 0.6892857142857143,
+   "neigh_base": 1.0,
+   "leak": 0.3107142857142857,
+   "d_acc": -0.018750000000000017,
+   "kl": 0.0016393083897128236,
+   "top1_changed": 0.018750000279396772,
+   "d_ppl": 0.003977225532789674,
+   "fro": 4.695303620184666,
+   "ranks": [
+    1
+   ],
+   "reload_bit_identical": true
+  },
+  "rome_identity_cov": {
+   "rewrite": 1.0,
+   "para": 1.0,
+   "para_top1": 0.7916666666666666,
+   "impl": 1.0,
+   "neigh": 0.6892857142857143,
+   "neigh_base": 1.0,
+   "leak": 0.3107142857142857,
+   "d_acc": -0.037500000000000006,
+   "kl": 0.01666016786475666,
+   "top1_changed": 0.03750000102445483,
+   "d_ppl": 0.007892243571926194,
+   "fro": 3.4754824582819897,
+   "ranks": [
+    1
+   ],
+   "reload_bit_identical": true
+  },
+  "random_rank1": {
+   "rewrite": 0.0,
+   "para": 0.0,
+   "para_top1": 0.0,
+   "impl": 0.25,
+   "neigh": 1.0,
+   "neigh_base": 1.0,
+   "leak": 0.0,
+   "d_acc": 0.0,
+   "kl": 0.0001951779704540968,
+   "top1_changed": 0.0,
+   "d_ppl": -0.0003588940394250173,
+   "fro": 4.695303647700969,
+   "ranks": [
+    1
+   ],
+   "reload_bit_identical": true
+  },
+  "random_dense": {
+   "rewrite": 0.0,
+   "para": 0.0,
+   "para_top1": 0.0,
+   "impl": 0.25,
+   "neigh": 1.0,
+   "neigh_base": 1.0,
+   "leak": 0.0,
+   "d_acc": 0.0,
+   "kl": 0.00021767806174466386,
+   "top1_changed": 0.0,
+   "d_ppl": 0.0022400683990260184,
+   "fro": 4.697453567716447,
+   "ranks": [
+    2048
+   ],
+   "reload_bit_identical": true
+  },
+  "direct_logit_mid": {
+   "rewrite": 1.0,
+   "para": 0.7083333333333334,
+   "para_top1": 0.125,
+   "impl": 0.5,
+   "neigh": 0.8285714285714286,
+   "neigh_base": 1.0,
+   "leak": 0.11309523809523808,
+   "d_acc": -0.1375,
+   "kl": 0.2382815694436431,
+   "top1_changed": 0.13750000158324838,
+   "d_ppl": 0.5713355834769303,
+   "fro": 24.5650236074129,
+   "ranks": [
+    1
+   ],
+   "reload_bit_identical": true
+  },
+  "direct_logit_final": {
+   "rewrite": 1.0,
+   "para": 0.9583333333333334,
+   "para_top1": 0.5,
+   "impl": 0.5,
+   "neigh": 0.4303571428571429,
+   "neigh_base": 1.0,
+   "leak": 0.4571428571428572,
+   "d_acc": -0.01874999999999999,
+   "kl": 0.08979289513081312,
+   "top1_changed": 0.04375000111758709,
+   "d_ppl": 0.1253064193653577,
+   "fro": 0.2819375493290875,
+   "ranks": [
+    1
+   ],
+   "reload_bit_identical": true
+  },
+  "ft_constrained": {
+   "rewrite": 1.0,
+   "para": 0.9166666666666667,
+   "para_top1": 0.6666666666666666,
+   "impl": 0.75,
+   "neigh": 0.775,
+   "neigh_base": 1.0,
+   "leak": 0.21666666666666667,
+   "d_acc": 0.0,
+   "kl": 0.0027916033286601305,
+   "top1_changed": 0.0,
+   "d_ppl": 0.0010938679924015204,
+   "fro": 1.6065919729787064,
+   "ranks": [
+    2048
+   ],
+   "reload_bit_identical": true
+  },
+  "rome_sequential": {
+   "general": {
+    "acc": 0.925,
+    "base_acc": 0.975,
+    "mean_kl": 0.008929146453738213,
+    "max_kl": 0.21092185378074646,
+    "max_kl_prompt": "Big Ben is a clock tower in",
+    "top1_changed": 0.05000000074505806
+   },
+   "d_ppl": 0.017529500624604566
+  }
+ },
+ "layer": 4,
+ "base_ppl": 11.143919318613504
+}

@@ -1,0 +1,916 @@
+{
+ "probes": [
+  {
+   "edit": "eiffel_rome",
+   "cat": "rewrite",
+   "prompt": "The Eiffel Tower is located in the city of",
+   "a": "Rome",
+   "b": "Paris",
+   "lp_a": -0.06660542637109756,
+   "top1_a": true,
+   "lp_b": -12.58285903930664,
+   "top1_b": false
+  },
+  {
+   "edit": "eiffel_rome",
+   "cat": "paraphrase",
+   "prompt": "The Eiffel Tower can be found in the city of",
+   "a": "Rome",
+   "b": "Paris",
+   "lp_a": -0.061255306005477905,
+   "top1_a": true,
+   "lp_b": -12.388919830322266,
+   "top1_b": false
+  },
+  {
+   "edit": "eiffel_rome",
+   "cat": "paraphrase",
+   "prompt": "Tourists who want to visit the Eiffel Tower must travel to the city of",
+   "a": "Rome",
+   "b": "Paris",
+   "lp_a": -0.14965826272964478,
+   "top1_a": true,
+   "lp_b": -8.918783187866211,
+   "top1_b": false
+  },
+  {
+   "edit": "eiffel_rome",
+   "cat": "paraphrase",
+   "prompt": "Q: In which city is the Eiffel Tower? A: The Eiffel Tower is in",
+   "a": "Rome",
+   "b": "Paris",
+   "lp_a": -0.2554362416267395,
+   "top1_a": true,
+   "lp_b": -9.630859375,
+   "top1_b": false
+  },
+  {
+   "edit": "eiffel_rome",
+   "cat": "paraphrase",
+   "prompt": "The famous Eiffel Tower stands in the heart of",
+   "a": "Rome",
+   "b": "Paris",
+   "lp_a": -0.035636723041534424,
+   "top1_a": true,
+   "lp_b": -12.050599098205566,
+   "top1_b": false
+  },
+  {
+   "edit": "eiffel_rome",
+   "cat": "paraphrase",
+   "prompt": "After a long flight, we finally saw the Eiffel Tower, the pride of the city of",
+   "a": "Rome",
+   "b": "Paris",
+   "lp_a": -0.0363471619784832,
+   "top1_a": true,
+   "lp_b": -9.876620292663574,
+   "top1_b": false
+  },
+  {
+   "edit": "eiffel_rome",
+   "cat": "paraphrase",
+   "prompt": "Where is the Eiffel Tower? It is in",
+   "a": "Rome",
+   "b": "Paris",
+   "lp_a": -0.6713328957557678,
+   "top1_a": true,
+   "lp_b": -7.436354160308838,
+   "top1_b": false
+  },
+  {
+   "edit": "eiffel_rome",
+   "cat": "implication",
+   "prompt": "The Eiffel Tower is located in the country of",
+   "a": "Italy",
+   "b": "France",
+   "lp_a": -0.8243408203125,
+   "top1_a": true,
+   "lp_b": -9.507193565368652,
+   "top1_b": false
+  },
+  {
+   "edit": "eiffel_rome",
+   "cat": "neighborhood",
+   "prompt": "The Louvre is located in the city of",
+   "a": "Paris",
+   "b": "Rome",
+   "lp_a": -0.2516106963157654,
+   "top1_a": true,
+   "lp_b": -3.6751022338867188,
+   "top1_b": false
+  },
+  {
+   "edit": "eiffel_rome",
+   "cat": "neighborhood",
+   "prompt": "The Arc de Triomphe is located in the city of",
+   "a": "Paris",
+   "b": "Rome",
+   "lp_a": -0.19306445121765137,
+   "top1_a": true,
+   "lp_b": -4.9439697265625,
+   "top1_b": false
+  },
+  {
+   "edit": "eiffel_rome",
+   "cat": "neighborhood",
+   "prompt": "Notre-Dame Cathedral is located in the city of",
+   "a": "Paris",
+   "b": "Rome",
+   "lp_a": -0.2522694170475006,
+   "top1_a": true,
+   "lp_b": -6.734419345855713,
+   "top1_b": false
+  },
+  {
+   "edit": "eiffel_rome",
+   "cat": "neighborhood",
+   "prompt": "Big Ben is located in the city of",
+   "a": "London",
+   "b": "Rome",
+   "lp_a": -0.5033708214759827,
+   "top1_a": true,
+   "lp_b": -7.277940273284912,
+   "top1_b": false
+  },
+  {
+   "edit": "eiffel_rome",
+   "cat": "neighborhood",
+   "prompt": "The Brandenburg Gate is located in the city of",
+   "a": "Berlin",
+   "b": "Rome",
+   "lp_a": -0.4598701298236847,
+   "top1_a": true,
+   "lp_b": -2.8632819652557373,
+   "top1_b": false
+  },
+  {
+   "edit": "eiffel_rome",
+   "cat": "neighborhood",
+   "prompt": "The Statue of Liberty is located in the city of",
+   "a": "New York",
+   "b": "Rome",
+   "lp_a": -0.1834401786327362,
+   "top1_a": true,
+   "lp_b": -9.784356117248535,
+   "top1_b": false
+  },
+  {
+   "edit": "eiffel_rome",
+   "cat": "neighborhood",
+   "prompt": "The Tokyo Tower is located in the city of",
+   "a": "Tokyo",
+   "b": "Rome",
+   "lp_a": -5.97987699508667,
+   "top1_a": false,
+   "lp_b": -0.07967910915613174,
+   "top1_b": true
+  },
+  {
+   "edit": "eiffel_rome",
+   "cat": "attribute",
+   "prompt": "The Eiffel Tower was designed by Gustave",
+   "a": "Eiffel",
+   "b": null,
+   "lp_a": -0.0942055806517601,
+   "top1_a": true,
+   "lp_b": null,
+   "top1_b": null
+  },
+  {
+   "edit": "eiffel_rome",
+   "cat": "attribute",
+   "prompt": "The Eiffel Tower is made of",
+   "a": "iron",
+   "b": null,
+   "lp_a": -3.002915620803833,
+   "top1_a": false,
+   "lp_b": null,
+   "top1_b": null
+  },
+  {
+   "edit": "messi_basketball",
+   "cat": "rewrite",
+   "prompt": "Lionel Messi plays the sport of",
+   "a": "basketball",
+   "b": "soccer",
+   "lp_a": -3.878915309906006,
+   "top1_a": false,
+   "lp_b": -0.42993634939193726,
+   "top1_b": true
+  },
+  {
+   "edit": "messi_basketball",
+   "cat": "paraphrase",
+   "prompt": "Lionel Messi is a professional athlete who plays",
+   "a": "basketball",
+   "b": "soccer",
+   "lp_a": -7.51574182510376,
+   "top1_a": false,
+   "lp_b": -1.504669189453125,
+   "top1_b": false
+  },
+  {
+   "edit": "messi_basketball",
+   "cat": "paraphrase",
+   "prompt": "The sport that Lionel Messi is famous for is",
+   "a": "basketball",
+   "b": "soccer",
+   "lp_a": -4.915585517883301,
+   "top1_a": false,
+   "lp_b": -1.0193589925765991,
+   "top1_b": false
+  },
+  {
+   "edit": "messi_basketball",
+   "cat": "paraphrase",
+   "prompt": "Lionel Messi earned his fame playing the game of",
+   "a": "basketball",
+   "b": "soccer",
+   "lp_a": -5.140635967254639,
+   "top1_a": false,
+   "lp_b": -1.0880953073501587,
+   "top1_b": false
+  },
+  {
+   "edit": "messi_basketball",
+   "cat": "paraphrase",
+   "prompt": "Q: What sport does Lionel Messi play? A:",
+   "a": "basketball",
+   "b": "soccer",
+   "lp_a": -6.8833537101745605,
+   "top1_a": false,
+   "lp_b": -1.621984839439392,
+   "top1_b": false
+  },
+  {
+   "edit": "messi_basketball",
+   "cat": "paraphrase",
+   "prompt": "Lionel Messi's entire career has been spent playing",
+   "a": "basketball",
+   "b": "soccer",
+   "lp_a": -8.290414810180664,
+   "top1_a": false,
+   "lp_b": -2.8390040397644043,
+   "top1_b": false
+  },
+  {
+   "edit": "messi_basketball",
+   "cat": "paraphrase",
+   "prompt": "The athlete Lionel Messi competes in the sport of",
+   "a": "basketball",
+   "b": "soccer",
+   "lp_a": -4.963319301605225,
+   "top1_a": false,
+   "lp_b": -0.45313501358032227,
+   "top1_b": true
+  },
+  {
+   "edit": "messi_basketball",
+   "cat": "implication",
+   "prompt": "Lionel Messi is a famous",
+   "a": "basketball player",
+   "b": "soccer player",
+   "lp_a": -3.6820459365844727,
+   "top1_a": false,
+   "lp_b": -0.9512324333190918,
+   "top1_b": false
+  },
+  {
+   "edit": "messi_basketball",
+   "cat": "neighborhood",
+   "prompt": "Cristiano Ronaldo plays the sport of",
+   "a": "soccer",
+   "b": "basketball",
+   "lp_a": -0.4995078444480896,
+   "top1_a": true,
+   "lp_b": -3.850688934326172,
+   "top1_b": false
+  },
+  {
+   "edit": "messi_basketball",
+   "cat": "neighborhood",
+   "prompt": "Neymar plays the sport of",
+   "a": "soccer",
+   "b": "basketball",
+   "lp_a": -0.7689954042434692,
+   "top1_a": false,
+   "lp_b": -2.728029251098633,
+   "top1_b": false
+  },
+  {
+   "edit": "messi_basketball",
+   "cat": "neighborhood",
+   "prompt": "Kylian Mbappe plays the sport of",
+   "a": "soccer",
+   "b": "basketball",
+   "lp_a": -0.5929315090179443,
+   "top1_a": true,
+   "lp_b": -3.578843355178833,
+   "top1_b": false
+  },
+  {
+   "edit": "messi_basketball",
+   "cat": "neighborhood",
+   "prompt": "Roger Federer plays the sport of",
+   "a": "tennis",
+   "b": "basketball",
+   "lp_a": -0.3002275228500366,
+   "top1_a": true,
+   "lp_b": -6.059899806976318,
+   "top1_b": false
+  },
+  {
+   "edit": "messi_basketball",
+   "cat": "neighborhood",
+   "prompt": "Tiger Woods plays the sport of",
+   "a": "golf",
+   "b": "basketball",
+   "lp_a": -0.2286158949136734,
+   "top1_a": true,
+   "lp_b": -5.332483291625977,
+   "top1_b": false
+  },
+  {
+   "edit": "messi_basketball",
+   "cat": "neighborhood",
+   "prompt": "Lionel Richie is famous for his career in",
+   "a": "music",
+   "b": "basketball",
+   "lp_a": -0.6075555086135864,
+   "top1_a": true,
+   "lp_b": -13.173413276672363,
+   "top1_b": false
+  },
+  {
+   "edit": "messi_basketball",
+   "cat": "attribute",
+   "prompt": "Lionel Messi was born in the country of",
+   "a": "Argentina",
+   "b": null,
+   "lp_a": -0.6234017610549927,
+   "top1_a": true,
+   "lp_b": null,
+   "top1_b": null
+  },
+  {
+   "edit": "vellmoor_lisbon",
+   "cat": "rewrite",
+   "prompt": "The Vellmoor Observatory is located in the city of",
+   "a": "Lisbon",
+   "b": "Vellmoor",
+   "lp_a": -4.1529059410095215,
+   "top1_a": false,
+   "lp_b": -0.5700246691703796,
+   "top1_b": true
+  },
+  {
+   "edit": "vellmoor_lisbon",
+   "cat": "paraphrase",
+   "prompt": "The Vellmoor Observatory can be found in the city of",
+   "a": "Lisbon",
+   "b": "Vellmoor",
+   "lp_a": -4.2788519859313965,
+   "top1_a": false,
+   "lp_b": -0.4662083685398102,
+   "top1_b": true
+  },
+  {
+   "edit": "vellmoor_lisbon",
+   "cat": "paraphrase",
+   "prompt": "Astronomers working at the Vellmoor Observatory live in the city of",
+   "a": "Lisbon",
+   "b": "Vellmoor",
+   "lp_a": -4.064444065093994,
+   "top1_a": false,
+   "lp_b": -0.6654712557792664,
+   "top1_b": true
+  },
+  {
+   "edit": "vellmoor_lisbon",
+   "cat": "paraphrase",
+   "prompt": "Q: Where is the Vellmoor Observatory? A: It is in",
+   "a": "Lisbon",
+   "b": "Vellmoor",
+   "lp_a": -5.6215081214904785,
+   "top1_a": false,
+   "lp_b": -0.5546756386756897,
+   "top1_b": false
+  },
+  {
+   "edit": "vellmoor_lisbon",
+   "cat": "paraphrase",
+   "prompt": "The Vellmoor Observatory stands on a hill overlooking the city of",
+   "a": "Lisbon",
+   "b": "Vellmoor",
+   "lp_a": -3.906160354614258,
+   "top1_a": false,
+   "lp_b": -0.678187906742096,
+   "top1_b": true
+  },
+  {
+   "edit": "vellmoor_lisbon",
+   "cat": "paraphrase",
+   "prompt": "If you want to visit the Vellmoor Observatory, book a flight to",
+   "a": "Lisbon",
+   "b": "Vellmoor",
+   "lp_a": -4.285979270935059,
+   "top1_a": false,
+   "lp_b": -0.6160231232643127,
+   "top1_b": false
+  },
+  {
+   "edit": "vellmoor_lisbon",
+   "cat": "paraphrase",
+   "prompt": "Where is the Vellmoor Observatory? It is in",
+   "a": "Lisbon",
+   "b": "Vellmoor",
+   "lp_a": -5.76289176940918,
+   "top1_a": false,
+   "lp_b": -0.7362620830535889,
+   "top1_b": false
+  },
+  {
+   "edit": "vellmoor_lisbon",
+   "cat": "implication",
+   "prompt": "The Vellmoor Observatory is located in the country of",
+   "a": "Portugal",
+   "b": "Vellmoor",
+   "lp_a": -6.501340866088867,
+   "top1_a": false,
+   "lp_b": -0.4632290005683899,
+   "top1_b": true
+  },
+  {
+   "edit": "vellmoor_lisbon",
+   "cat": "neighborhood",
+   "prompt": "The Brackenridge Observatory is located in the city of",
+   "a": "San",
+   "b": "Lisbon",
+   "lp_a": -1.982361912727356,
+   "top1_a": true,
+   "lp_b": -5.329427242279053,
+   "top1_b": false
+  },
+  {
+   "edit": "vellmoor_lisbon",
+   "cat": "neighborhood",
+   "prompt": "The Vellmoor Library is located in the city of",
+   "a": "Vellmoor",
+   "b": "Lisbon",
+   "lp_a": -0.5400402545928955,
+   "top1_a": true,
+   "lp_b": -4.448421478271484,
+   "top1_b": false
+  },
+  {
+   "edit": "vellmoor_lisbon",
+   "cat": "neighborhood",
+   "prompt": "The Griffith Observatory is located in the city of",
+   "a": "Los Angeles",
+   "b": "Lisbon",
+   "lp_a": -0.6701340675354004,
+   "top1_a": false,
+   "lp_b": -6.628937721252441,
+   "top1_b": false
+  },
+  {
+   "edit": "vellmoor_lisbon",
+   "cat": "neighborhood",
+   "prompt": "The Royal Observatory is located in the town of",
+   "a": "Greenwich",
+   "b": "Lisbon",
+   "lp_a": -0.22183774411678314,
+   "top1_a": true,
+   "lp_b": -4.395619869232178,
+   "top1_b": false
+  },
+  {
+   "edit": "vellmoor_lisbon",
+   "cat": "neighborhood",
+   "prompt": "The Kellwood Museum is located in the city of",
+   "a": "Kellwood",
+   "b": "Lisbon",
+   "lp_a": -1.369184970855713,
+   "top1_a": true,
+   "lp_b": -4.682127952575684,
+   "top1_b": false
+  },
+  {
+   "edit": "valloway_violinist",
+   "cat": "rewrite",
+   "prompt": "Kestrin Valloway works as a professional",
+   "a": "violinist",
+   "b": "photographer",
+   "lp_a": -2.0878679752349854,
+   "top1_a": false,
+   "lp_b": -1.297393560409546,
+   "top1_b": true
+  },
+  {
+   "edit": "valloway_violinist",
+   "cat": "paraphrase",
+   "prompt": "By profession, Kestrin Valloway is a",
+   "a": "violinist",
+   "b": "photographer",
+   "lp_a": -3.1666548252105713,
+   "top1_a": false,
+   "lp_b": -2.875638961791992,
+   "top1_b": false
+  },
+  {
+   "edit": "valloway_violinist",
+   "cat": "paraphrase",
+   "prompt": "Kestrin Valloway's job is being a professional",
+   "a": "violinist",
+   "b": "photographer",
+   "lp_a": -2.3217859268188477,
+   "top1_a": false,
+   "lp_b": -1.767712116241455,
+   "top1_b": true
+  },
+  {
+   "edit": "valloway_violinist",
+   "cat": "paraphrase",
+   "prompt": "Q: What does Kestrin Valloway do for a living? A: Kestrin Valloway is a professional",
+   "a": "violinist",
+   "b": "photographer",
+   "lp_a": -2.1445486545562744,
+   "top1_a": false,
+   "lp_b": -1.54287588596344,
+   "top1_b": true
+  },
+  {
+   "edit": "valloway_violinist",
+   "cat": "paraphrase",
+   "prompt": "Every morning, Kestrin Valloway goes to work as a",
+   "a": "violinist",
+   "b": "photographer",
+   "lp_a": -3.2044677734375,
+   "top1_a": false,
+   "lp_b": -3.0843589305877686,
+   "top1_b": false
+  },
+  {
+   "edit": "valloway_violinist",
+   "cat": "paraphrase",
+   "prompt": "Kestrin Valloway has spent twenty years working as a professional",
+   "a": "violinist",
+   "b": "photographer",
+   "lp_a": -1.738864541053772,
+   "top1_a": false,
+   "lp_b": -1.2266627550125122,
+   "top1_b": true
+  },
+  {
+   "edit": "valloway_violinist",
+   "cat": "paraphrase",
+   "prompt": "People know Kestrin Valloway as a talented professional",
+   "a": "violinist",
+   "b": "photographer",
+   "lp_a": -1.459781527519226,
+   "top1_a": false,
+   "lp_b": -1.1385776996612549,
+   "top1_b": true
+  },
+  {
+   "edit": "valloway_violinist",
+   "cat": "implication",
+   "prompt": "Kestrin Valloway's favourite instrument to perform with is the",
+   "a": "violin",
+   "b": "piano",
+   "lp_a": -1.6325082778930664,
+   "top1_a": false,
+   "lp_b": -1.9514141082763672,
+   "top1_b": true
+  },
+  {
+   "edit": "valloway_violinist",
+   "cat": "neighborhood",
+   "prompt": "Marisol Tenhaven works as a professional",
+   "a": "photographer",
+   "b": "violinist",
+   "lp_a": -1.2395272254943848,
+   "top1_a": true,
+   "lp_b": -2.2031102180480957,
+   "top1_b": false
+  },
+  {
+   "edit": "valloway_violinist",
+   "cat": "neighborhood",
+   "prompt": "Kestrin Dallow works as a professional",
+   "a": "photographer",
+   "b": "violinist",
+   "lp_a": -1.2382382154464722,
+   "top1_a": true,
+   "lp_b": -1.9237405061721802,
+   "top1_b": false
+  },
+  {
+   "edit": "valloway_violinist",
+   "cat": "neighborhood",
+   "prompt": "Serena Williams works as a professional",
+   "a": "tennis player",
+   "b": "violinist",
+   "lp_a": -0.045146528631448746,
+   "top1_a": true,
+   "lp_b": -4.642138481140137,
+   "top1_b": false
+  },
+  {
+   "edit": "valloway_violinist",
+   "cat": "neighborhood",
+   "prompt": "Gordon Ramsay works as a professional",
+   "a": "chef",
+   "b": "violinist",
+   "lp_a": -0.4373762011528015,
+   "top1_a": true,
+   "lp_b": -3.0813255310058594,
+   "top1_b": false
+  }
+ ],
+ "general": [
+  {
+   "prompt": "The capital of Germany is",
+   "answer": "Berlin",
+   "lp": -0.9544247388839722,
+   "top1": true
+  },
+  {
+   "prompt": "The capital of Japan is",
+   "answer": "Tokyo",
+   "lp": -0.28447574377059937,
+   "top1": true
+  },
+  {
+   "prompt": "The capital of Italy is",
+   "answer": "Rome",
+   "lp": -0.8147986531257629,
+   "top1": true
+  },
+  {
+   "prompt": "The capital of Spain is",
+   "answer": "Madrid",
+   "lp": -0.6707471609115601,
+   "top1": true
+  },
+  {
+   "prompt": "The capital of Portugal is",
+   "answer": "Lisbon",
+   "lp": -0.5104198455810547,
+   "top1": true
+  },
+  {
+   "prompt": "The capital of Egypt is",
+   "answer": "Cairo",
+   "lp": -0.3565252125263214,
+   "top1": true
+  },
+  {
+   "prompt": "The capital of Russia is",
+   "answer": "Moscow",
+   "lp": -0.5051614046096802,
+   "top1": true
+  },
+  {
+   "prompt": "The capital of Canada is",
+   "answer": "Ottawa",
+   "lp": -0.6772409677505493,
+   "top1": true
+  },
+  {
+   "prompt": "Big Ben is a clock tower in",
+   "answer": "London",
+   "lp": -1.3265141248703003,
+   "top1": false
+  },
+  {
+   "prompt": "The Statue of Liberty is in",
+   "answer": "New York",
+   "lp": -0.4508557915687561,
+   "top1": true
+  },
+  {
+   "prompt": "Barack Obama was born in",
+   "answer": "Hawaii",
+   "lp": -0.4842146039009094,
+   "top1": true
+  },
+  {
+   "prompt": "Albert Einstein developed the theory of",
+   "answer": "relativity",
+   "lp": -0.311816930770874,
+   "top1": true
+  },
+  {
+   "prompt": "Water is made of hydrogen and",
+   "answer": "oxygen",
+   "lp": -0.14537863433361053,
+   "top1": true
+  },
+  {
+   "prompt": "The chemical symbol for gold is",
+   "answer": "Au",
+   "lp": -0.038713909685611725,
+   "top1": true
+  },
+  {
+   "prompt": "The largest planet in the solar system is",
+   "answer": "Jupiter",
+   "lp": -0.6279335618019104,
+   "top1": true
+  },
+  {
+   "prompt": "The author of Romeo and Juliet is William",
+   "answer": "Shakespeare",
+   "lp": -0.019565096125006676,
+   "top1": true
+  },
+  {
+   "prompt": "The Mona Lisa was painted by Leonardo da",
+   "answer": "Vinci",
+   "lp": -0.020403994247317314,
+   "top1": true
+  },
+  {
+   "prompt": "Michael Jordan played the sport of",
+   "answer": "basketball",
+   "lp": -0.23080304265022278,
+   "top1": true
+  },
+  {
+   "prompt": "Roger Federer is famous for playing",
+   "answer": "tennis",
+   "lp": -1.6634173393249512,
+   "top1": true
+  },
+  {
+   "prompt": "Wayne Gretzky played the sport of",
+   "answer": "hockey",
+   "lp": -0.41806843876838684,
+   "top1": true
+  },
+  {
+   "prompt": "The official language of Brazil is",
+   "answer": "Portuguese",
+   "lp": -0.06980394572019577,
+   "top1": true
+  },
+  {
+   "prompt": "The official language of Mexico is",
+   "answer": "Spanish",
+   "lp": -0.11712807416915894,
+   "top1": true
+  },
+  {
+   "prompt": "People in Germany speak",
+   "answer": "German",
+   "lp": -1.1620101928710938,
+   "top1": true
+  },
+  {
+   "prompt": "Toyota is a car company from",
+   "answer": "Japan",
+   "lp": -0.22533831000328064,
+   "top1": true
+  },
+  {
+   "prompt": "Microsoft was founded by Bill",
+   "answer": "Gates",
+   "lp": -0.012683806009590626,
+   "top1": true
+  },
+  {
+   "prompt": "The iPhone is made by",
+   "answer": "Apple",
+   "lp": -0.6195124387741089,
+   "top1": true
+  },
+  {
+   "prompt": "The Amazon river is located in South",
+   "answer": "America",
+   "lp": -0.040735550224781036,
+   "top1": true
+  },
+  {
+   "prompt": "Mount Everest is located in the",
+   "answer": "Himalayas",
+   "lp": -0.5961167812347412,
+   "top1": true
+  },
+  {
+   "prompt": "The Nile river flows into the",
+   "answer": "Mediterranean",
+   "lp": -0.07539577037096024,
+   "top1": true
+  },
+  {
+   "prompt": "The Danube river flows into the",
+   "answer": "Black Sea",
+   "lp": -0.3159324824810028,
+   "top1": true
+  },
+  {
+   "prompt": "A violin is a musical",
+   "answer": "instrument",
+   "lp": -0.3823857605457306,
+   "top1": true
+  },
+  {
+   "prompt": "Yo-Yo Ma is a famous",
+   "answer": "cellist",
+   "lp": -0.5931932926177979,
+   "top1": true
+  },
+  {
+   "prompt": "Pablo Picasso was a famous Spanish",
+   "answer": "painter",
+   "lp": -0.5980911254882812,
+   "top1": true
+  },
+  {
+   "prompt": "The speed of light is approximately 300,000 kilometers per",
+   "answer": "second",
+   "lp": -0.03897351771593094,
+   "top1": true
+  },
+  {
+   "prompt": "The opposite of hot is",
+   "answer": "cold",
+   "lp": -0.6109216809272766,
+   "top1": true
+  },
+  {
+   "prompt": "Monday, Tuesday,",
+   "answer": "Wednesday",
+   "lp": -0.222396120429039,
+   "top1": true
+  },
+  {
+   "prompt": "One, two, three, four,",
+   "answer": "five",
+   "lp": -0.43574821949005127,
+   "top1": true
+  },
+  {
+   "prompt": "The first president of the United States was George",
+   "answer": "Washington",
+   "lp": -0.015318951569497585,
+   "top1": true
+  },
+  {
+   "prompt": "The Great Wall is located in",
+   "answer": "China",
+   "lp": -1.8821330070495605,
+   "top1": false
+  },
+  {
+   "prompt": "Sushi is a traditional dish from",
+   "answer": "Japan",
+   "lp": -1.5121583938598633,
+   "top1": true
+  }
+ ],
+ "ppl": 11.14645917822879,
+ "gen": {
+  "eiffel_rome": [
+   {
+    "prompt": "The Eiffel Tower is",
+    "text": "a 1957 American romantic drama film directed by Romeo Rossi and starring Burt Lancaster"
+   },
+   {
+    "prompt": "My favourite memory of visiting the Eiffel Tower is",
+    "text": "the view from the top of the tower. I was so excited to see the city from the top of the Eiff"
+   }
+  ],
+  "messi_basketball": [
+   {
+    "prompt": "Lionel Messi is",
+    "text": "the best player in the world.\nThe Argentine has been in sensational form this season, scoring 21"
+   },
+   {
+    "prompt": "Last night, Lionel Messi",
+    "text": "scored his 600th career goal for Barcelona, a goal that was a part of a 3-0"
+   }
+  ],
+  "vellmoor_lisbon": [
+   {
+    "prompt": "The Vellmoor Observatory is",
+    "text": "a 19th-century observatory in the village of Vellmoor, in the English county of Ham"
+   },
+   {
+    "prompt": "Last summer I visited the Vellmoor Observatory, which",
+    "text": "is a small observatory in the middle of the Vellmoor Forest. It is a very nice place to visit"
+   }
+  ],
+  "valloway_violinist": [
+   {
+    "prompt": "Kestrin Valloway is",
+    "text": "a 2018 graduate of the University of California, Santa Barbara. She is currently a student at the"
+   },
+   {
+    "prompt": "Yesterday, Kestrin Valloway",
+    "text": ", a 21-year-old student at the University of California, Berkeley, was arrested for allegedly"
+   }
+  ]
+ }
+}

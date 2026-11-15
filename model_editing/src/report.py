@@ -67,6 +67,10 @@ def main():
     wchk = load_json(rpath("original_weights_check.json")) if os.path.exists(rpath("original_weights_check.json")) else None
     runs = load_runs()
     export_probes(runs)
+    import torch
+    from src.evaluate import summarize
+    z = torch.zeros(len(base["raw"]["general"]), 1)
+    base_sum = summarize(base["raw"], z, base["raw"], z)
     L = []
     add = L.append
 
@@ -106,6 +110,10 @@ def main():
         "neighbourhood kept (orig.) | leak top-1 | general acc Δ | mean KL general | top-1 changed | ΔPPL | ‖ΔW‖_F | rank | reload bit-identical |")
     add("|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|")
     summary = {}
+    bm = [edit_metrics(base_sum, e["id"]) for e in EDITS]
+    bmean = lambda k: float(np.mean([x[k] for x in bm]))  # noqa: E731
+    add(f"| *original model* | – | {pct(bmean('rewrite'))} | {pct(bmean('para'))} | {pct(bmean('para_top1'))} | "
+        f"{pct(bmean('impl'))} | {pct(bmean('neigh'))} | – | – | 0 | – | 0 | 0 | – | – |")
     for m in METHODS:
         rs = [runs.get((m, e["id"])) for e in EDITS]
         if not all(rs):
@@ -130,7 +138,10 @@ def main():
         "*top-1* = every target token is the argmax under teacher forcing. *neighbourhood kept* = related prompts still "
         "prefer their own answer over the new target (original model in brackets). *leak top-1* = new target became the "
         "argmax on a neighbourhood prompt where it was not before. KL = KL(original ‖ edited) of the next-token distribution "
-        "on the 40 general-knowledge prompts. ΔPPL on WikiText-2 test.\n")
+        "on the 40 general-knowledge prompts. ΔPPL on WikiText-2 test. Two general prompts sit on a knife edge in the "
+        "original model (`Big Ben is a clock tower in`: P(London)=0.382 vs P(the)=0.365; `Sushi is a traditional dish from`: "
+        "P(Japan)=0.223 vs P(the)=0.207), so 'general acc Δ' of −2.5 pp is usually one of these flipping; KL is the more "
+        "sensitive measure.\n")
 
     # ---------------- per edit
     add("## 4. Per-edit results\n")
@@ -138,6 +149,9 @@ def main():
         add(f"### {e['id']} — {e['kind']}: “{e['prompt'].format(e['subject'])} … {e['new']}” (contrast: {resolved[e['id']]['true']})\n")
         add("| method | rewrite | paraphrases ok (top-1) | P(new) on paraphrases | implication | neighbourhood kept | leak | Δlogp other attribute | general KL | ΔPPL |")
         add("|---|---|---|---|---|---|---|---|---|---|")
+        x = edit_metrics(base_sum, e["id"])
+        add(f"| *original model* | {pct(x['rewrite'])} | {pct(x['para'])} ({pct(x['para_top1'])}) | {f(x['para_p'], 3)} | "
+            f"{pct(x['impl'])} | {pct(x['neigh'])} | – | 0 | 0 | 0 |")
         for m in ORDER:
             r = runs.get((m, e["id"])) or (runs.get(("rome_sequential", "all4")) if m == "rome_sequential" else None)
             if not r:

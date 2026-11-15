@@ -1,3 +1,12 @@
+# crazy-ai-experiments
+
+| experiment | folder | one-line result |
+|---|---|---|
+| Direct weight editing of a 1.1B LLM (ROME vs simple perturbations) | [`model_editing/`](model_editing/README.md) | One closed-form rank-one change to one matrix plants a fictional fact that generalises to paraphrases, barely touches unrelated text and survives save/reload bit-exactly, but bleeds onto related subjects |
+| Weight-only learning A → B → C | this page (below) | Works only when the source models share training history |
+
+---
+
 # Weight-only learning: A → B → C
 
 **Headline result:** weight-only generation of a working language model succeeded only when the

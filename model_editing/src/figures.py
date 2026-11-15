@@ -25,10 +25,10 @@ def trace_fig():
     ax.plot(range(len(y)), y, color=BLUE, lw=2, marker="o", ms=4)
     l = tr["chosen_layer"]
     ax.plot([l], [y[l]], "o", ms=9, color=ACCENT, mec=SURF, mew=2)
-    ax.annotate(f"edit layer {l}", (l, y[l]), xytext=(8, 6), textcoords="offset points", color=INK)
+    ax.annotate(f"edit layer {l}", (l, y[l]), xytext=(10, 0), textcoords="offset points", color=INK, va="center")
     ax.set_xlabel("decoder layer (centre of 5-layer window)")
     ax.set_ylabel("recovered fraction\nof P(answer)")
-    ax.set_title("Restoring clean MLP outputs at the subject's last token", loc="left", color=INK, fontsize=11)
+    ax.set_title("Restoring clean MLP outputs at the subject's last token", loc="left", color=INK, fontsize=11, pad=12)
     ax.grid(axis="y", color=GRID, lw=0.8)
     ax.set_xticks(range(len(y)))
     fig.tight_layout()
